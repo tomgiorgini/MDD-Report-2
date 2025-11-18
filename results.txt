@@ -1,0 +1,704 @@
+BAGGING:
+
+    - edge_colorlayout:
+                1. J48             | Iter=10 | Accuracy=60.32%
+                2. RandomForest    | Iter=10 | Accuracy=59.79%
+                3. RandomForest    | Iter=15 | Accuracy=59.26%
+                15
+                6. PART            | Iter=15 | Accuracy=57.94%
+                7. REPTree         | Iter=10 | Accuracy=57.67%
+                8. REPTree         | Iter=15 | Accuracy=56.35%
+                9. REPTree         | Iter=5  | Accuracy=55.82%
+                10. PART            | Iter=10 | Accuracy=55.82%
+                11. NaiveBayes      | Iter=5  | Accuracy=55.56%
+                12. NaiveBayes      | Iter=10 | Accuracy=54.23%
+                13. NaiveBayes      | Iter=15 | Accuracy=54.23%
+                14. J48             | Iter=5  | Accuracy=53.70%
+                15. JRip            | Iter=15 | Accuracy=52.91%
+                16. RandomTree      | Iter=15 | Accuracy=52.65%
+                17. PART            | Iter=5  | Accuracy=52.12%
+                18. JRip            | Iter=10 | Accuracy=51.59%
+                19. JRip            | Iter=5  | Accuracy=50.00%
+                20. RandomTree      | Iter=10 | Accuracy=46.30%
+                21. RandomTree      | Iter=5  | Accuracy=44.71%
+                22. SimpleLogistic  | Iter=10 | Accuracy=40.74%
+                23. SimpleLogistic  | Iter=5  | Accuracy=39.95%
+                24. SimpleLogistic  | Iter=15 | Accuracy=39.95%
+                25. SMO             | Iter=5  | Accuracy=38.89%
+                26. SMO             | Iter=15 | Accuracy=38.89%
+                27. SMO             | Iter=10 | Accuracy=38.62%
+                28. IBk             | Iter=5  | Accuracy=30.42%
+                29. IBk             | Iter=15 | Accuracy=30.42%
+                30. IBk             | Iter=10 | Accuracy=29.89%
+
+    - kmeans_autocolor:
+                1. RandomForest    | Iter=10 | Accuracy=60.05%
+                2. PART            | Iter=10 | Accuracy=60.05%
+                3. PART            | Iter=15 | Accuracy=59.79%
+                4. RandomForest    | Iter=15 | Accuracy=58.99%
+                5. J48             | Iter=10 | Accuracy=58.73%
+                6. RandomForest    | Iter=5  | Accuracy=58.20%
+                7. IBk             | Iter=10 | Accuracy=58.20%
+                8. PART            | Iter=5  | Accuracy=58.20%
+                9. J48             | Iter=15 | Accuracy=57.94%
+                10. J48             | Iter=5  | Accuracy=57.67%
+                11. RandomTree      | Iter=10 | Accuracy=57.41%
+                12. JRip            | Iter=15 | Accuracy=57.41%
+                13. RandomTree      | Iter=5  | Accuracy=57.14%
+                14. RandomTree      | Iter=15 | Accuracy=57.14%
+                15. REPTree         | Iter=15 | Accuracy=56.88%
+                16. IBk             | Iter=15 | Accuracy=56.88%
+                17. REPTree         | Iter=10 | Accuracy=56.61%
+                18. SimpleLogistic  | Iter=5  | Accuracy=56.61%
+                19. REPTree         | Iter=5  | Accuracy=56.08%
+                20. SimpleLogistic  | Iter=15 | Accuracy=55.56%
+                21. IBk             | Iter=5  | Accuracy=55.56%
+                22. JRip            | Iter=10 | Accuracy=55.56%
+                23. SimpleLogistic  | Iter=10 | Accuracy=55.03%
+                24. JRip            | Iter=5  | Accuracy=53.97%
+                25. SMO             | Iter=10 | Accuracy=50.26%
+                26. SMO             | Iter=15 | Accuracy=49.47%
+                27. SMO             | Iter=5  | Accuracy=49.21%
+
+
+    -kmeans_jpeg:
+                1. RandomForest    | Iter=5  | Accuracy=72.49%
+                2. RandomForest    | Iter=10 | Accuracy=72.22%
+                3. SimpleLogistic  | Iter=10 | Accuracy=71.69%
+                4. RandomForest    | Iter=15 | Accuracy=71.43%
+                5. REPTree         | Iter=15 | Accuracy=71.16%
+                6. REPTree         | Iter=10 | Accuracy=70.63%
+                7. SimpleLogistic  | Iter=5  | Accuracy=70.37%
+                8. J48             | Iter=10 | Accuracy=69.84%
+                9. SimpleLogistic  | Iter=15 | Accuracy=69.58%
+                10. RandomTree      | Iter=15 | Accuracy=69.31%
+                11. PART            | Iter=10 | Accuracy=69.31%
+                12. PART            | Iter=15 | Accuracy=69.05%
+                13. J48             | Iter=15 | Accuracy=68.52%
+                14. JRip            | Iter=15 | Accuracy=68.25%
+                15. REPTree         | Iter=5  | Accuracy=67.99%
+                16. J48             | Iter=5  | Accuracy=67.72%
+                17. JRip            | Iter=10 | Accuracy=67.72%
+                18. SMO             | Iter=10 | Accuracy=67.20%
+                19. IBk             | Iter=5  | Accuracy=66.93%
+                20. SMO             | Iter=15 | Accuracy=66.40%
+                21. PART            | Iter=5  | Accuracy=66.14%
+                22. RandomTree      | Iter=10 | Accuracy=65.87%
+                23. SMO             | Iter=5  | Accuracy=65.34%
+                24. RandomTree      | Iter=5  | Accuracy=65.08%
+                25. JRip            | Iter=5  | Accuracy=65.08%
+                26. IBk             | Iter=10 | Accuracy=64.02%
+                27. IBk             | Iter=15 | Accuracy=62.96%
+                28. NaiveBayes      | Iter=10 | Accuracy=61.38%
+                29. NaiveBayes      | Iter=5  | Accuracy=60.85%
+                30. NaiveBayes      | Iter=15 | Accuracy=60.58%
+
+    - original_autocolor:
+                1. SMO             | Iter=5  | Accuracy=83.33%
+                2. SMO             | Iter=15 | Accuracy=83.07%
+                3. SimpleLogistic  | Iter=5  | Accuracy=82.54%
+                4. RandomForest    | Iter=10 | Accuracy=82.28%
+                5. RandomForest    | Iter=15 | Accuracy=82.28%
+                6. SMO             | Iter=10 | Accuracy=82.28%
+                7. SimpleLogistic  | Iter=10 | Accuracy=82.28%
+                8. RandomForest    | Iter=5  | Accuracy=81.75%
+                9. SimpleLogistic  | Iter=15 | Accuracy=80.69%
+                10. IBk             | Iter=5  | Accuracy=79.89%
+                11. IBk             | Iter=10 | Accuracy=79.89%
+                12. IBk             | Iter=15 | Accuracy=79.89%
+                13. JRip            | Iter=15 | Accuracy=79.37%
+                14. RandomTree      | Iter=15 | Accuracy=79.10%
+                15. PART            | Iter=10 | Accuracy=78.84%
+                16. PART            | Iter=15 | Accuracy=78.57%
+                17. JRip            | Iter=10 | Accuracy=78.04%
+                18. J48             | Iter=15 | Accuracy=76.98%
+                19. RandomTree      | Iter=10 | Accuracy=76.19%
+                20. J48             | Iter=10 | Accuracy=75.13%
+                21. JRip            | Iter=5  | Accuracy=73.81%
+                22. PART            | Iter=5  | Accuracy=73.28%
+                23. J48             | Iter=5  | Accuracy=73.02%
+                24. REPTree         | Iter=10 | Accuracy=71.69%
+                25. REPTree         | Iter=15 | Accuracy=71.16%
+                26. RandomTree      | Iter=5  | Accuracy=71.16%
+                27. REPTree         | Iter=5  | Accuracy=67.20%
+
+BOOSTING:
+
+    - edge_colorlayout:
+            1. J48             | Iter=15 | Accuracy=57.67%
+            2. PART            | Iter=15 | Accuracy=57.41%
+            3. J48             | Iter=10 | Accuracy=56.08%
+            4. PART            | Iter=5  | Accuracy=55.03%
+            5. PART            | Iter=10 | Accuracy=55.03%
+            6. J48             | Iter=5  | Accuracy=54.76%
+            7. JRip            | Iter=15 | Accuracy=54.76%
+            8. JRip            | Iter=10 | Accuracy=54.50%
+            9. NaiveBayes      | Iter=5  | Accuracy=54.50%
+            10. NaiveBayes      | Iter=10 | Accuracy=54.50%
+            11. NaiveBayes      | Iter=15 | Accuracy=54.50%
+            12. REPTree         | Iter=10 | Accuracy=54.23%
+            13. REPTree         | Iter=15 | Accuracy=54.23%
+            14. REPTree         | Iter=5  | Accuracy=53.44%
+            15. JRip            | Iter=5  | Accuracy=49.21%
+            16. SimpleLogistic  | Iter=5  | Accuracy=41.01%
+            17. SimpleLogistic  | Iter=10 | Accuracy=41.01%
+            18. SimpleLogistic  | Iter=15 | Accuracy=41.01%
+            19. RandomTree      | Iter=5  | Accuracy=36.77%
+            20. RandomTree      | Iter=10 | Accuracy=36.77%
+            21. RandomTree      | Iter=15 | Accuracy=36.77%
+            22. DecisionStump   | Iter=5  | Accuracy=25.93%
+            23. DecisionStump   | Iter=10 | Accuracy=25.93%
+            24. DecisionStump   | Iter=15 | Accuracy=25.93%
+
+    - kmeans_autocolor:
+            1. RandomTree      | Iter=5  | Accuracy=60.58%
+            2. RandomTree      | Iter=10 | Accuracy=60.58%
+            3. RandomTree      | Iter=15 | Accuracy=60.58%
+            4. J48             | Iter=10 | Accuracy=58.99%
+            5. J48             | Iter=15 | Accuracy=58.99%
+            6. PART            | Iter=5  | Accuracy=58.99%
+            7. PART            | Iter=10 | Accuracy=58.99%
+            8. J48             | Iter=5  | Accuracy=58.73%
+            9. PART            | Iter=15 | Accuracy=58.47%
+            10. REPTree         | Iter=10 | Accuracy=57.14%
+            11. REPTree         | Iter=15 | Accuracy=57.14%
+            12. REPTree         | Iter=5  | Accuracy=56.88%
+            13. SimpleLogistic  | Iter=5  | Accuracy=55.03%
+            14. SimpleLogistic  | Iter=10 | Accuracy=55.03%
+            15. SimpleLogistic  | Iter=15 | Accuracy=55.03%
+            16. JRip            | Iter=5  | Accuracy=51.32%
+            17. JRip            | Iter=10 | Accuracy=51.32%
+            18. JRip            | Iter=15 | Accuracy=51.32%
+            19. DecisionStump   | Iter=5  | Accuracy=34.92%
+            20. DecisionStump   | Iter=10 | Accuracy=34.92%
+            21. DecisionStump   | Iter=15 | Accuracy=34.92%
+            22. NaiveBayes      | Iter=5  | Accuracy=0.00%
+            23. NaiveBayes      | Iter=10 | Accuracy=0.00%
+            24. NaiveBayes      | Iter=15 | Accuracy=0.00%
+
+
+    -kmeans_jpeg:
+            1. J48             | Iter=15 | Accuracy=73.02%
+            2. PART            | Iter=15 | Accuracy=72.75%
+            3. PART            | Iter=10 | Accuracy=72.49%
+            4. J48             | Iter=10 | Accuracy=71.96%
+            5. J48             | Iter=5  | Accuracy=69.58%
+            6. JRip            | Iter=15 | Accuracy=69.31%
+            7. JRip            | Iter=10 | Accuracy=67.99%
+            8. REPTree         | Iter=10 | Accuracy=67.46%
+            9. SimpleLogistic  | Iter=5  | Accuracy=67.46%
+            10. SimpleLogistic  | Iter=10 | Accuracy=67.46%
+            11. SimpleLogistic  | Iter=15 | Accuracy=67.46%
+            12. REPTree         | Iter=5  | Accuracy=67.20%
+            13. REPTree         | Iter=15 | Accuracy=66.14%
+            14. PART            | Iter=5  | Accuracy=66.14%
+            15. JRip            | Iter=5  | Accuracy=64.81%
+            16. NaiveBayes      | Iter=5  | Accuracy=58.99%
+            17. NaiveBayes      | Iter=10 | Accuracy=58.99%
+            18. NaiveBayes      | Iter=15 | Accuracy=58.99%
+            19. RandomTree      | Iter=5  | Accuracy=58.20%
+            20. RandomTree      | Iter=10 | Accuracy=58.20%
+            21. RandomTree      | Iter=15 | Accuracy=58.20%
+            22. DecisionStump   | Iter=5  | Accuracy=37.83%
+            23. DecisionStump   | Iter=10 | Accuracy=37.83%
+            24. DecisionStump   | Iter=15 | Accuracy=37.83%
+
+    - original_autocolor:
+            1. PART            | Iter=15 | Accuracy=83.07%
+            2. J48             | Iter=15 | Accuracy=82.80%
+            3. SimpleLogistic  | Iter=5  | Accuracy=80.69%
+            4. SimpleLogistic  | Iter=10 | Accuracy=80.69%
+            5. SimpleLogistic  | Iter=15 | Accuracy=80.69%
+            6. JRip            | Iter=15 | Accuracy=80.16%
+            7. J48             | Iter=10 | Accuracy=79.63%
+            8. PART            | Iter=10 | Accuracy=79.63%
+            9. JRip            | Iter=10 | Accuracy=76.98%
+            10. REPTree         | Iter=15 | Accuracy=76.46%
+            11. J48             | Iter=5  | Accuracy=75.13%
+            12. JRip            | Iter=5  | Accuracy=75.13%
+            13. PART            | Iter=5  | Accuracy=73.54%
+            14. REPTree         | Iter=10 | Accuracy=72.75%
+            15. REPTree         | Iter=5  | Accuracy=69.05%
+            16. NaiveBayes      | Iter=10 | Accuracy=68.78%
+            17. NaiveBayes      | Iter=15 | Accuracy=68.78%
+            18. NaiveBayes      | Iter=5  | Accuracy=68.25%
+            19. RandomTree      | Iter=5  | Accuracy=62.17%
+            20. RandomTree      | Iter=10 | Accuracy=62.17%
+            21. RandomTree      | Iter=15 | Accuracy=62.17%
+            22. DecisionStump   | Iter=5  | Accuracy=31.48%
+            23. DecisionStump   | Iter=10 | Accuracy=31.48%
+            24. DecisionStump   | Iter=15 | Accuracy=31.48%
+
+STACKING A:
+
+    - edge_colorlayout:
+     1. StackA_SMO_NaiveBayes_SimpleLogistic_J48.txt       | Accuracy=60.85%
+ 2. StackA_SimpleLogistic_PART_J48_RandomForest.txt    | Accuracy=60.58%
+ 3. StackA_SimpleLogistic_NaiveBayes_RandomForest_RandomTree.txt | Accuracy=60.05%
+ 4. StackA_RandomForest_PART_REPTree_RandomForest.txt  | Accuracy=59.79%
+ 5. StackA_RandomForest_JRip_PART_RandomForest.txt     | Accuracy=59.52%
+ 6. StackA_SMO_SimpleLogistic_REPTree_RandomForest.txt | Accuracy=58.99%
+ 7. StackA_RandomForest_J48_REPTree_RandomForest.txt   | Accuracy=58.73%
+ 8. StackA_SMO_IBk_REPTree_RandomForest.txt            | Accuracy=58.47%
+ 9. StackA_RandomForest_JRip_J48_RandomForest.txt      | Accuracy=58.20%
+10. StackA_RandomForest_NaiveBayes_JRip_J48.txt        | Accuracy=57.94%
+11. StackA_SMO_IBk_J48_RandomForest.txt                | Accuracy=57.67%
+12. StackA_SMO_SimpleLogistic_IBk_RandomForest.txt     | Accuracy=57.41%
+13. StackA_SMO_REPTree_RandomForest_RandomTree.txt     | Accuracy=57.41%
+14. StackA_SimpleLogistic_SimpleLogistic_IBk_RandomForest.txt | Accuracy=57.41%
+15. StackA_JRip_IBk_REPTree_RandomForest.txt           | Accuracy=57.14%
+16. StackA_RandomForest_SimpleLogistic_J48_REPTree.txt | Accuracy=55.29%
+17. StackA_REPTree_NaiveBayes_J48_RandomForest.txt     | Accuracy=55.29%
+18. StackA_SimpleLogistic_JRip_J48_REPTree.txt         | Accuracy=55.03%
+19. StackA_RandomForest_JRip_J48_REPTree.txt           | Accuracy=54.50%
+20. StackA_RandomForest_SimpleLogistic_IBk_REPTree.txt | Accuracy=54.23%
+21. StackA_SMO_JRip_J48_REPTree.txt                    | Accuracy=53.97%
+22. StackA_SimpleLogistic_SimpleLogistic_PART_REPTree.txt | Accuracy=53.97%
+23. StackA_JRip_NaiveBayes_SimpleLogistic_J48.txt      | Accuracy=53.44%
+24. StackA_REPTree_IBk_REPTree_RandomForest.txt        | Accuracy=52.12%
+25. StackA_REPTree_REPTree_RandomForest_RandomTree.txt | Accuracy=51.06%
+26. StackA_RandomForest_SimpleLogistic_JRip_PART.txt   | Accuracy=51.06%
+27. StackA_REPTree_SMO_SimpleLogistic_RandomForest.txt | Accuracy=51.06%
+28. StackA_JRip_SimpleLogistic_IBk_RandomForest.txt    | Accuracy=50.53%
+29. StackA_REPTree_NaiveBayes_SimpleLogistic_REPTree.txt | Accuracy=50.26%
+30. StackA_JRip_REPTree_RandomForest_RandomTree.txt    | Accuracy=49.74%
+31. StackA_REPTree_SMO_SimpleLogistic_JRip.txt         | Accuracy=48.15%
+32. StackA_SimpleLogistic_JRip_PART_RandomTree.txt     | Accuracy=46.83%
+33. StackA_JRip_JRip_J48_REPTree.txt                   | Accuracy=46.30%
+34. StackA_SMO_SMO_PART_RandomTree.txt                 | Accuracy=45.77%
+35. StackA_REPTree_IBk_PART_REPTree.txt                | Accuracy=44.71%
+36. StackA_JRip_JRip_J48_RandomTree.txt                | Accuracy=43.92%
+37. StackA_JRip_IBk_PART_REPTree.txt                   | Accuracy=42.59%
+38. StackA_REPTree_SMO_JRip_J48.txt                    | Accuracy=41.27%
+
+    - kmeans_autocolor:
+     1. StackA_RandomForest_SimpleLogistic_J48_REPTree.txt | Accuracy=62.96%
+ 2. StackA_SMO_SimpleLogistic_REPTree_RandomForest.txt | Accuracy=61.38%
+ 3. StackA_SMO_SimpleLogistic_IBk_RandomForest.txt     | Accuracy=60.58%
+ 4. StackA_SimpleLogistic_JRip_J48_REPTree.txt         | Accuracy=60.32%
+ 5. StackA_RandomForest_J48_REPTree_RandomForest.txt   | Accuracy=60.05%
+ 6. StackA_SimpleLogistic_NaiveBayes_RandomForest_RandomTree.txt | Accuracy=59.79%
+ 7. StackA_SMO_REPTree_RandomForest_RandomTree.txt     | Accuracy=59.79%
+ 8. StackA_RandomForest_SimpleLogistic_IBk_REPTree.txt | Accuracy=59.79%
+ 9. StackA_RandomForest_JRip_PART_RandomForest.txt     | Accuracy=59.79%
+10. StackA_SMO_NaiveBayes_SimpleLogistic_J48.txt       | Accuracy=59.52%
+11. StackA_SMO_JRip_J48_REPTree.txt                    | Accuracy=59.52%
+12. StackA_SimpleLogistic_SimpleLogistic_IBk_RandomForest.txt | Accuracy=59.52%
+13. StackA_RandomForest_JRip_J48_RandomForest.txt      | Accuracy=59.52%
+14. StackA_RandomForest_SimpleLogistic_JRip_PART.txt   | Accuracy=59.52%
+15. StackA_SimpleLogistic_PART_J48_RandomForest.txt    | Accuracy=58.73%
+16. StackA_SimpleLogistic_JRip_PART_RandomTree.txt     | Accuracy=58.73%
+17. StackA_SMO_IBk_REPTree_RandomForest.txt            | Accuracy=58.73%
+18. StackA_SimpleLogistic_SimpleLogistic_PART_REPTree.txt | Accuracy=58.47%
+19. StackA_RandomForest_PART_REPTree_RandomForest.txt  | Accuracy=58.20%
+20. StackA_JRip_SimpleLogistic_IBk_RandomForest.txt    | Accuracy=57.94%
+21. StackA_RandomForest_JRip_J48_REPTree.txt           | Accuracy=57.94%
+22. StackA_SMO_IBk_J48_RandomForest.txt                | Accuracy=57.14%
+23. StackA_SMO_SMO_PART_RandomTree.txt                 | Accuracy=56.88%
+24. StackA_REPTree_SMO_SimpleLogistic_JRip.txt         | Accuracy=56.88%
+25. StackA_JRip_NaiveBayes_SimpleLogistic_J48.txt      | Accuracy=56.08%
+26. StackA_REPTree_IBk_REPTree_RandomForest.txt        | Accuracy=55.82%
+27. StackA_REPTree_NaiveBayes_J48_RandomForest.txt     | Accuracy=55.56%
+28. StackA_JRip_IBk_PART_REPTree.txt                   | Accuracy=55.56%
+29. StackA_JRip_REPTree_RandomForest_RandomTree.txt    | Accuracy=55.03%
+30. StackA_RandomForest_NaiveBayes_JRip_J48.txt        | Accuracy=55.03%
+31. StackA_REPTree_IBk_PART_REPTree.txt                | Accuracy=54.23%
+32. StackA_REPTree_SMO_JRip_J48.txt                    | Accuracy=54.23%
+33. StackA_REPTree_SMO_SimpleLogistic_RandomForest.txt | Accuracy=53.97%
+34. StackA_REPTree_REPTree_RandomForest_RandomTree.txt | Accuracy=53.17%
+35. StackA_REPTree_NaiveBayes_SimpleLogistic_REPTree.txt | Accuracy=52.65%
+36. StackA_JRip_JRip_J48_REPTree.txt                   | Accuracy=51.06%
+37. StackA_JRip_IBk_REPTree_RandomForest.txt           | Accuracy=50.26%
+38. StackA_JRip_JRip_J48_RandomTree.txt                | Accuracy=48.68%
+
+    -kmeans_jpeg:
+
+1. StackA_SimpleLogistic_NaiveBayes_RandomForest_RandomTree.txt | Accuracy=74.60%
+ 2. StackA_RandomForest_SimpleLogistic_IBk_REPTree.txt | Accuracy=74.60%
+ 3. StackA_SimpleLogistic_SimpleLogistic_IBk_RandomForest.txt | Accuracy=73.55%
+ 4. StackA_SimpleLogistic_PART_J48_RandomForest.txt    | Accuracy=73.28%
+ 5. StackA_SMO_SimpleLogistic_REPTree_RandomForest.txt | Accuracy=73.28%
+ 6. StackA_SMO_SimpleLogistic_IBk_RandomForest.txt     | Accuracy=72.75%
+ 7. StackA_JRip_SimpleLogistic_IBk_RandomForest.txt    | Accuracy=71.96%
+ 8. StackA_SimpleLogistic_SimpleLogistic_PART_REPTree.txt | Accuracy=71.69%
+ 9. StackA_RandomForest_JRip_J48_RandomForest.txt      | Accuracy=71.69%
+10. StackA_SMO_IBk_J48_RandomForest.txt                | Accuracy=71.43%
+11. StackA_RandomForest_JRip_PART_RandomForest.txt     | Accuracy=71.43%
+12. StackA_RandomForest_SimpleLogistic_J48_REPTree.txt | Accuracy=71.16%
+13. StackA_RandomForest_J48_REPTree_RandomForest.txt   | Accuracy=71.16%
+14. StackA_REPTree_SMO_SimpleLogistic_RandomForest.txt | Accuracy=70.63%
+15. StackA_SMO_NaiveBayes_SimpleLogistic_J48.txt       | Accuracy=70.37%
+16. StackA_RandomForest_SimpleLogistic_JRip_PART.txt   | Accuracy=70.37%
+17. StackA_JRip_IBk_REPTree_RandomForest.txt           | Accuracy=69.58%
+18. StackA_SMO_IBk_REPTree_RandomForest.txt            | Accuracy=69.31%
+19. StackA_REPTree_NaiveBayes_J48_RandomForest.txt     | Accuracy=69.05%
+20. StackA_RandomForest_PART_REPTree_RandomForest.txt  | Accuracy=68.78%
+21. StackA_JRip_REPTree_RandomForest_RandomTree.txt    | Accuracy=68.78%
+22. StackA_SMO_REPTree_RandomForest_RandomTree.txt     | Accuracy=67.99%
+23. StackA_REPTree_REPTree_RandomForest_RandomTree.txt | Accuracy=67.99%
+24. StackA_REPTree_IBk_REPTree_RandomForest.txt        | Accuracy=67.99%
+25. StackA_RandomForest_NaiveBayes_JRip_J48.txt        | Accuracy=66.93%
+26. StackA_SMO_JRip_J48_REPTree.txt                    | Accuracy=66.67%
+27. StackA_SimpleLogistic_JRip_J48_REPTree.txt         | Accuracy=66.14%
+28. StackA_RandomForest_JRip_J48_REPTree.txt           | Accuracy=66.14%
+29. StackA_REPTree_NaiveBayes_SimpleLogistic_REPTree.txt | Accuracy=65.87%
+30. StackA_SMO_SMO_PART_RandomTree.txt                 | Accuracy=65.34%
+31. StackA_REPTree_SMO_SimpleLogistic_JRip.txt         | Accuracy=64.81%
+32. StackA_JRip_NaiveBayes_SimpleLogistic_J48.txt      | Accuracy=64.55%
+33. StackA_SimpleLogistic_JRip_PART_RandomTree.txt     | Accuracy=63.49%
+34. StackA_JRip_IBk_PART_REPTree.txt                   | Accuracy=62.17%
+35. StackA_JRip_JRip_J48_REPTree.txt                   | Accuracy=62.17%
+36. StackA_REPTree_IBk_PART_REPTree.txt                | Accuracy=61.90%
+37. StackA_REPTree_SMO_JRip_J48.txt                    | Accuracy=60.32%
+38. StackA_JRip_JRip_J48_RandomTree.txt                | Accuracy=58.99%
+
+
+    - original_autocolor:
+
+ 1. StackA_SMO_SimpleLogistic_IBk_RandomForest.txt     | Accuracy=87.83%
+ 2. StackA_RandomForest_SimpleLogistic_IBk_REPTree.txt | Accuracy=87.04%
+ 3. StackA_SMO_IBk_J48_RandomForest.txt                | Accuracy=86.77%
+ 4. StackA_SimpleLogistic_SimpleLogistic_IBk_RandomForest.txt | Accuracy=86.51%
+ 5. StackA_JRip_SimpleLogistic_IBk_RandomForest.txt    | Accuracy=85.98%
+ 6. StackA_SMO_IBk_REPTree_RandomForest.txt            | Accuracy=85.98%
+ 7. StackA_RandomForest_PART_REPTree_RandomForest.txt  | Accuracy=85.71%
+ 8. StackA_SimpleLogistic_NaiveBayes_RandomForest_RandomTree.txt | Accuracy=85.45%
+ 9. StackA_JRip_IBk_PART_REPTree.txt                   | Accuracy=85.19%
+10. StackA_RandomForest_J48_REPTree_RandomForest.txt   | Accuracy=85.19%
+11. StackA_SMO_SimpleLogistic_REPTree_RandomForest.txt | Accuracy=85.19%
+12. StackA_REPTree_IBk_PART_REPTree.txt                | Accuracy=84.92%
+13. StackA_SimpleLogistic_PART_J48_RandomForest.txt    | Accuracy=84.13%
+14. StackA_JRip_IBk_REPTree_RandomForest.txt           | Accuracy=84.13%
+15. StackA_RandomForest_JRip_PART_RandomForest.txt     | Accuracy=83.86%
+16. StackA_REPTree_IBk_REPTree_RandomForest.txt        | Accuracy=83.86%
+17. StackA_JRip_REPTree_RandomForest_RandomTree.txt    | Accuracy=83.60%
+18. StackA_RandomForest_JRip_J48_RandomForest.txt      | Accuracy=83.60%
+19. StackA_REPTree_REPTree_RandomForest_RandomTree.txt | Accuracy=82.54%
+20. StackA_SimpleLogistic_SimpleLogistic_PART_REPTree.txt | Accuracy=82.54%
+21. StackA_REPTree_SMO_JRip_J48.txt                    | Accuracy=82.01%
+22. StackA_RandomForest_SimpleLogistic_JRip_PART.txt   | Accuracy=81.48%
+23. StackA_SMO_REPTree_RandomForest_RandomTree.txt     | Accuracy=80.69%
+24. StackA_REPTree_NaiveBayes_J48_RandomForest.txt     | Accuracy=80.16%
+25. StackA_RandomForest_SimpleLogistic_J48_REPTree.txt | Accuracy=79.63%
+26. StackA_REPTree_NaiveBayes_SimpleLogistic_REPTree.txt | Accuracy=79.37%
+27. StackA_SMO_NaiveBayes_SimpleLogistic_J48.txt       | Accuracy=78.84%
+28. StackA_REPTree_SMO_SimpleLogistic_JRip.txt         | Accuracy=78.57%
+29. StackA_REPTree_SMO_SimpleLogistic_RandomForest.txt | Accuracy=77.78%
+30. StackA_SMO_SMO_PART_RandomTree.txt                 | Accuracy=76.45%
+31. StackA_JRip_NaiveBayes_SimpleLogistic_J48.txt      | Accuracy=74.07%
+32. StackA_RandomForest_NaiveBayes_JRip_J48.txt        | Accuracy=72.49%
+33. StackA_SimpleLogistic_JRip_PART_RandomTree.txt     | Accuracy=70.11%
+34. StackA_SimpleLogistic_JRip_J48_REPTree.txt         | Accuracy=66.40%
+35. StackA_SMO_JRip_J48_REPTree.txt                    | Accuracy=65.34%
+36. StackA_RandomForest_JRip_J48_REPTree.txt           | Accuracy=63.49%
+37. StackA_JRip_JRip_J48_RandomTree.txt                | Accuracy=63.23%
+38. StackA_JRip_JRip_J48_REPTree.txt                   | Accuracy=61.11%
+
+STACKING B:
+
+    - edge_colorlayout:
+ 1. StackB_RandomForest_NaiveBayes_SMO_SimpleLogistic_IBk_RandomForest.txt | Accuracy=63.23%
+ 2. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_REPTree_RandomTree.txt | Accuracy=62.43%
+ 3. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_PART_REPTree_RandomTree.txt | Accuracy=61.90%
+ 4. StackB_RandomForest_SMO_SimpleLogistic_JRip_J48_RandomForest.txt | Accuracy=61.11%
+ 5. StackB_RandomForest_SMO_PART_J48_REPTree_RandomForest.txt | Accuracy=61.11%
+ 6. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_JRip_REPTree.txt | Accuracy=61.11%
+ 7. StackB_RandomForest_SimpleLogistic_IBk_PART_REPTree_RandomForest.txt | Accuracy=60.05%
+ 8. StackB_SimpleLogistic_NaiveBayes_SMO_SimpleLogistic_RandomForest_RandomTree.txt | Accuracy=59.79%
+ 9. StackB_RandomForest_SMO_JRip_J48_RandomForest_RandomTree.txt | Accuracy=59.79%
+10. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_IBk_J48_REPTree.txt | Accuracy=59.52%
+11. StackB_SMO_NaiveBayes_IBk_J48_REPTree_RandomTree.txt | Accuracy=58.73%
+12. StackB_SMO_NaiveBayes_IBk_JRip_REPTree_RandomTree.txt | Accuracy=58.47%
+13. StackB_RandomForest_SimpleLogistic_IBk_JRip_J48_RandomForest.txt | Accuracy=57.94%
+14. StackB_SMO_NaiveBayes_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=57.67%
+15. StackB_RandomForest_IBk_JRip_J48_RandomForest_RandomTree.txt | Accuracy=57.41%
+16. StackB_SMO_NaiveBayes_IBk_REPTree_RandomForest_RandomTree.txt | Accuracy=57.41%
+17. StackB_JRip_NaiveBayes_SMO_PART_J48_REPTree.txt    | Accuracy=55.03%
+18. StackB_RandomForest_SMO_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=55.03%
+19. StackB_SMO_PART_J48_REPTree_RandomForest_RandomTree.txt | Accuracy=54.76%
+20. StackB_JRip_SMO_SimpleLogistic_IBk_JRip_RandomForest.txt | Accuracy=54.50%
+21. StackB_REPTree_NaiveBayes_SMO_JRip_J48_RandomForest.txt | Accuracy=53.97%
+22. StackB_REPTree_NaiveBayes_SimpleLogistic_PART_J48_REPTree.txt | Accuracy=53.70%
+23. StackB_JRip_NaiveBayes_IBk_JRip_PART_REPTree.txt   | Accuracy=53.17%
+24. StackB_JRip_NaiveBayes_SMO_SimpleLogistic_JRip_RandomTree.txt | Accuracy=51.85%
+25. StackB_REPTree_NaiveBayes_SMO_JRip_PART_REPTree.txt | Accuracy=51.85%
+26. StackB_JRip_NaiveBayes_SimpleLogistic_PART_REPTree_RandomForest.txt | Accuracy=51.59%
+27. StackB_REPTree_SMO_SimpleLogistic_IBk_RandomForest_RandomTree.txt | Accuracy=50.00%
+28. StackB_REPTree_SimpleLogistic_IBk_JRip_J48_REPTree.txt | Accuracy=46.83%
+29. StackB_REPTree_SMO_IBk_PART_J48_RandomTree.txt     | Accuracy=46.83%
+30. StackB_JRip_SMO_JRip_PART_REPTree_RandomTree.txt   | Accuracy=44.18%
+
+    - kmeans_autocolor:
+ 1. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_JRip_REPTree.txt | Accuracy=65.34%
+ 2. StackB_RandomForest_SMO_SimpleLogistic_JRip_J48_RandomForest.txt | Accuracy=63.76%
+ 3. StackB_RandomForest_SMO_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=62.43%
+ 4. StackB_SMO_NaiveBayes_IBk_J48_REPTree_RandomTree.txt | Accuracy=62.17%
+ 5. StackB_RandomForest_SimpleLogistic_IBk_JRip_J48_RandomForest.txt | Accuracy=61.90%
+ 6. StackB_RandomForest_NaiveBayes_SMO_SimpleLogistic_IBk_RandomForest.txt | Accuracy=61.64%
+ 7. StackB_RandomForest_SimpleLogistic_IBk_PART_REPTree_RandomForest.txt | Accuracy=61.38%
+ 8. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_REPTree_RandomTree.txt | Accuracy=60.85%
+ 9. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_PART_REPTree_RandomTree.txt | Accuracy=60.85%
+10. StackB_SimpleLogistic_NaiveBayes_SMO_SimpleLogistic_RandomForest_RandomTree.txt | Accuracy=60.58%
+11. StackB_SMO_NaiveBayes_IBk_REPTree_RandomForest_RandomTree.txt | Accuracy=60.32%
+12. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_IBk_J48_REPTree.txt | Accuracy=60.05%
+13. StackB_RandomForest_SMO_PART_J48_REPTree_RandomForest.txt | Accuracy=59.79%
+14. StackB_RandomForest_IBk_JRip_J48_RandomForest_RandomTree.txt | Accuracy=58.47%
+15. StackB_SMO_PART_J48_REPTree_RandomForest_RandomTree.txt | Accuracy=58.47%
+16. StackB_RandomForest_SMO_JRip_J48_RandomForest_RandomTree.txt | Accuracy=58.47%
+17. StackB_REPTree_SMO_IBk_PART_J48_RandomTree.txt     | Accuracy=57.94%
+18. StackB_SMO_NaiveBayes_IBk_JRip_REPTree_RandomTree.txt | Accuracy=57.67%
+19. StackB_REPTree_NaiveBayes_SimpleLogistic_PART_J48_REPTree.txt | Accuracy=56.88%
+20. StackB_JRip_NaiveBayes_SimpleLogistic_PART_REPTree_RandomForest.txt | Accuracy=56.61%
+21. StackB_SMO_NaiveBayes_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=56.61%
+22. StackB_REPTree_NaiveBayes_SMO_JRip_J48_RandomForest.txt | Accuracy=55.03%
+23. StackB_REPTree_SimpleLogistic_IBk_JRip_J48_REPTree.txt | Accuracy=54.50%
+24. StackB_JRip_SMO_SimpleLogistic_IBk_JRip_RandomForest.txt | Accuracy=54.50%
+25. StackB_REPTree_SMO_SimpleLogistic_IBk_RandomForest_RandomTree.txt | Accuracy=53.97%
+26. StackB_JRip_NaiveBayes_SMO_SimpleLogistic_JRip_RandomTree.txt | Accuracy=53.44%
+27. StackB_JRip_SMO_JRip_PART_REPTree_RandomTree.txt   | Accuracy=53.44%
+28. StackB_JRip_NaiveBayes_SMO_PART_J48_REPTree.txt    | Accuracy=52.65%
+29. StackB_JRip_NaiveBayes_IBk_JRip_PART_REPTree.txt   | Accuracy=50.26%
+30. StackB_REPTree_NaiveBayes_SMO_JRip_PART_REPTree.txt | Accuracy=50.00%
+
+    -kmeans_jpeg:
+
+ 1. StackB_RandomForest_SMO_PART_J48_REPTree_RandomForest.txt | Accuracy=75.93%
+ 2. StackB_RandomForest_SMO_SimpleLogistic_JRip_J48_RandomForest.txt | Accuracy=74.60%
+ 3. StackB_RandomForest_SimpleLogistic_IBk_PART_REPTree_RandomForest.txt | Accuracy=74.07%
+ 4. StackB_SimpleLogistic_NaiveBayes_SMO_SimpleLogistic_RandomForest_RandomTree.txt | Accuracy=74.07%
+ 5. StackB_RandomForest_SimpleLogistic_IBk_JRip_J48_RandomForest.txt | Accuracy=73.81%
+ 6. StackB_RandomForest_IBk_JRip_J48_RandomForest_RandomTree.txt | Accuracy=73.81%
+ 7. StackB_RandomForest_SMO_JRip_J48_RandomForest_RandomTree.txt | Accuracy=73.81%
+ 8. StackB_RandomForest_NaiveBayes_SMO_SimpleLogistic_IBk_RandomForest.txt | Accuracy=73.55%
+ 9. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_JRip_REPTree.txt | Accuracy=72.22%
+10. StackB_JRip_NaiveBayes_SimpleLogistic_PART_REPTree_RandomForest.txt | Accuracy=71.96%
+11. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_IBk_J48_REPTree.txt | Accuracy=71.96%
+12. StackB_RandomForest_SMO_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=71.96%
+13. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_REPTree_RandomTree.txt | Accuracy=70.90%
+14. StackB_SMO_NaiveBayes_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=70.90%
+15. StackB_SMO_NaiveBayes_IBk_JRip_REPTree_RandomTree.txt | Accuracy=70.11%
+16. StackB_REPTree_SMO_SimpleLogistic_IBk_RandomForest_RandomTree.txt | Accuracy=69.84%
+17. StackB_SMO_NaiveBayes_IBk_J48_REPTree_RandomTree.txt | Accuracy=69.31%
+18. StackB_SMO_PART_J48_REPTree_RandomForest_RandomTree.txt | Accuracy=69.05%
+19. StackB_SMO_NaiveBayes_IBk_REPTree_RandomForest_RandomTree.txt | Accuracy=68.52%
+20. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_PART_REPTree_RandomTree.txt | Accuracy=68.52%
+21. StackB_REPTree_NaiveBayes_SMO_JRip_J48_RandomForest.txt | Accuracy=67.46%
+22. StackB_REPTree_SMO_IBk_PART_J48_RandomTree.txt     | Accuracy=67.20%
+23. StackB_REPTree_SimpleLogistic_IBk_JRip_J48_REPTree.txt | Accuracy=66.14%
+24. StackB_JRip_NaiveBayes_SMO_PART_J48_REPTree.txt    | Accuracy=66.14%
+25. StackB_JRip_SMO_SimpleLogistic_IBk_JRip_RandomForest.txt | Accuracy=66.14%
+26. StackB_REPTree_NaiveBayes_SimpleLogistic_PART_J48_REPTree.txt | Accuracy=65.34%
+27. StackB_JRip_NaiveBayes_IBk_JRip_PART_REPTree.txt   | Accuracy=64.02%
+28. StackB_JRip_NaiveBayes_SMO_SimpleLogistic_JRip_RandomTree.txt | Accuracy=63.23%
+29. StackB_JRip_SMO_JRip_PART_REPTree_RandomTree.txt   | Accuracy=62.17%
+30. StackB_REPTree_NaiveBayes_SMO_JRip_PART_REPTree.txt | Accuracy=57.41%
+
+
+    - original_autocolor:
+
+ 1. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_REPTree_RandomTree.txt | Accuracy=89.15%
+ 2. StackB_RandomForest_SimpleLogistic_IBk_PART_REPTree_RandomForest.txt | Accuracy=88.89%
+ 3. StackB_RandomForest_NaiveBayes_SMO_SimpleLogistic_IBk_RandomForest.txt | Accuracy=88.10%
+ 4. StackB_RandomForest_SimpleLogistic_IBk_JRip_J48_RandomForest.txt | Accuracy=87.57%
+ 5. StackB_RandomForest_IBk_JRip_J48_RandomForest_RandomTree.txt | Accuracy=87.30%
+ 6. StackB_RandomForest_NaiveBayes_SimpleLogistic_IBk_JRip_REPTree.txt | Accuracy=87.30%
+ 7. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_IBk_J48_REPTree.txt | Accuracy=86.51%
+ 8. StackB_RandomForest_SMO_JRip_J48_RandomForest_RandomTree.txt | Accuracy=86.51%
+ 9. StackB_RandomForest_SMO_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=86.51%
+10. StackB_RandomForest_SMO_PART_J48_REPTree_RandomForest.txt | Accuracy=86.24%
+11. StackB_SMO_NaiveBayes_IBk_J48_REPTree_RandomTree.txt | Accuracy=85.19%
+12. StackB_RandomForest_SMO_SimpleLogistic_JRip_J48_RandomForest.txt | Accuracy=85.19%
+13. StackB_SimpleLogistic_NaiveBayes_SMO_SimpleLogistic_RandomForest_RandomTree.txt | Accuracy=85.19%
+14. StackB_SMO_NaiveBayes_IBk_JRip_REPTree_RandomTree.txt | Accuracy=84.66%
+15. StackB_SMO_NaiveBayes_SimpleLogistic_IBk_J48_RandomTree.txt | Accuracy=84.39%
+16. StackB_SMO_NaiveBayes_IBk_REPTree_RandomForest_RandomTree.txt | Accuracy=84.13%
+17. StackB_REPTree_SMO_IBk_PART_J48_RandomTree.txt     | Accuracy=83.86%
+18. StackB_JRip_NaiveBayes_SimpleLogistic_PART_REPTree_RandomForest.txt | Accuracy=83.33%
+19. StackB_REPTree_SimpleLogistic_IBk_JRip_J48_REPTree.txt | Accuracy=83.07%
+20. StackB_JRip_NaiveBayes_SMO_PART_J48_REPTree.txt    | Accuracy=82.80%
+21. StackB_JRip_SMO_SimpleLogistic_IBk_JRip_RandomForest.txt | Accuracy=82.80%
+22. StackB_REPTree_NaiveBayes_SMO_JRip_PART_REPTree.txt | Accuracy=82.01%
+23. StackB_JRip_NaiveBayes_IBk_JRip_PART_REPTree.txt   | Accuracy=81.48%
+24. StackB_SMO_PART_J48_REPTree_RandomForest_RandomTree.txt | Accuracy=80.95%
+25. StackB_JRip_SMO_JRip_PART_REPTree_RandomTree.txt   | Accuracy=80.95%
+26. StackB_SimpleLogistic_NaiveBayes_SimpleLogistic_PART_REPTree_RandomTree.txt | Accuracy=80.69%
+27. StackB_REPTree_SMO_SimpleLogistic_IBk_RandomForest_RandomTree.txt | Accuracy=79.37%
+28. StackB_JRip_NaiveBayes_SMO_SimpleLogistic_JRip_RandomTree.txt | Accuracy=79.37%
+29. StackB_REPTree_NaiveBayes_SMO_JRip_J48_RandomForest.txt | Accuracy=79.37%
+30. StackB_REPTree_NaiveBayes_SimpleLogistic_PART_J48_REPTree.txt | Accuracy=76.98%
+
+
+VOTING:
+
+    - edge_colorlayout:
+
+ 1. Vote_Average_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt        | Average  | 5 cls | Acc=58.47%
+ 2. Vote_Majority_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt       | Majority | 5 cls | Acc=58.20%
+ 3. Vote_Majority_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt  | Majority | 5 cls | Acc=57.67%
+ 4. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Majority | 5 cls | Acc=56.35%
+ 5. Vote_Majority_3cls_JRip_PART_RandomForest.txt                | Majority | 3 cls | Acc=55.82%
+ 6. Vote_Majority_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=55.29%
+ 7. Vote_Majority_5cls_SMO_JRip_J48_REPTree_RandomTree.txt       | Majority | 5 cls | Acc=55.03%
+ 8. Vote_Average_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt   | Average  | 5 cls | Acc=54.76%
+ 9. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Average  | 5 cls | Acc=54.50%
+10. Vote_Majority_3cls_SimpleLogistic_JRip_J48.txt               | Majority | 3 cls | Acc=53.97%
+11. Vote_Average_3cls_SimpleLogistic_JRip_J48.txt                | Average  | 3 cls | Acc=53.70%
+12. Vote_Majority_5cls_IBk_JRip_PART_REPTree_RandomForest.txt    | Majority | 5 cls | Acc=53.70%
+13. Vote_Average_3cls_SMO_PART_J48.txt                           | Average  | 3 cls | Acc=53.44%
+14. Vote_Average_5cls_SMO_JRip_J48_REPTree_RandomTree.txt        | Average  | 5 cls | Acc=53.17%
+15. Vote_Majority_3cls_SMO_PART_J48.txt                          | Majority | 3 cls | Acc=52.65%
+16. Vote_Majority_3cls_REPTree_RandomForest_RandomTree.txt       | Majority | 3 cls | Acc=52.38%
+17. Vote_Majority_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=52.38%
+18. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Average  | 5 cls | Acc=52.38%
+19. Vote_Average_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=51.85%
+20. Vote_Average_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=51.85%
+21. Vote_Majority_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Majority | 5 cls | Acc=51.59%
+22. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Majority | 5 cls | Acc=51.32%
+23. Vote_Average_5cls_IBk_JRip_PART_REPTree_RandomForest.txt     | Average  | 5 cls | Acc=51.06%
+24. Vote_Average_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Average  | 5 cls | Acc=50.53%
+25. Vote_Majority_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt  | Majority | 5 cls | Acc=50.26%
+26. Vote_Average_3cls_JRip_PART_RandomForest.txt                 | Average  | 3 cls | Acc=50.00%
+27. Vote_Majority_3cls_SimpleLogistic_PART_REPTree.txt           | Majority | 3 cls | Acc=49.47%
+28. Vote_Average_3cls_SimpleLogistic_PART_REPTree.txt            | Average  | 3 cls | Acc=48.94%
+29. Vote_Average_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt   | Average  | 5 cls | Acc=48.94%
+30. Vote_Majority_3cls_IBk_PART_RandomForest.txt                 | Majority | 3 cls | Acc=48.41%
+31. Vote_Average_3cls_IBk_PART_RandomForest.txt                  | Average  | 3 cls | Acc=48.15%
+32. Vote_Majority_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt  | Majority | 3 cls | Acc=45.50%
+33. Vote_Majority_3cls_SimpleLogistic_IBk_J48.txt                | Majority | 3 cls | Acc=44.97%
+34. Vote_Average_3cls_SimpleLogistic_IBk_J48.txt                 | Average  | 3 cls | Acc=44.44%
+35. Vote_Average_3cls_NaiveBayes_IBk_RandomTree.txt              | Average  | 3 cls | Acc=44.18%
+36. Vote_Majority_3cls_NaiveBayes_IBk_RandomTree.txt             | Majority | 3 cls | Acc=43.92%
+37. Vote_Average_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt   | Average  | 3 cls | Acc=42.59%
+38. Vote_Average_3cls_REPTree_RandomForest_RandomTree.txt        | Average  | 3 cls | Acc=41.53%
+39. Vote_Majority_3cls_IBk_JRip_RandomTree.txt                   | Majority | 3 cls | Acc=41.27%
+40. Vote_Average_3cls_IBk_JRip_RandomTree.txt                    | Average  | 3 cls | Acc=41.27%
+
+    - kmeans_autocolor:
+
+ 1. Vote_Average_3cls_SimpleLogistic_PART_REPTree.txt            | Average  | 3 cls | Acc=63.23%
+ 2. Vote_Majority_3cls_SimpleLogistic_PART_REPTree.txt           | Majority | 3 cls | Acc=61.90%
+ 3. Vote_Majority_3cls_JRip_PART_RandomForest.txt                | Majority | 3 cls | Acc=61.38%
+ 4. Vote_Average_3cls_JRip_PART_RandomForest.txt                 | Average  | 3 cls | Acc=61.38%
+ 5. Vote_Majority_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Majority | 5 cls | Acc=61.11%
+ 6. Vote_Average_3cls_SimpleLogistic_IBk_J48.txt                 | Average  | 3 cls | Acc=60.85%
+ 7. Vote_Average_3cls_SMO_PART_J48.txt                           | Average  | 3 cls | Acc=60.58%
+ 8. Vote_Majority_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=60.58%
+ 9. Vote_Majority_3cls_SimpleLogistic_IBk_J48.txt                | Majority | 3 cls | Acc=60.32%
+10. Vote_Average_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=60.32%
+11. Vote_Average_3cls_IBk_JRip_RandomTree.txt                    | Average  | 3 cls | Acc=60.05%
+12. Vote_Majority_5cls_IBk_JRip_PART_REPTree_RandomForest.txt    | Majority | 5 cls | Acc=60.05%
+13. Vote_Average_5cls_IBk_JRip_PART_REPTree_RandomForest.txt     | Average  | 5 cls | Acc=60.05%
+14. Vote_Majority_3cls_IBk_JRip_RandomTree.txt                   | Majority | 3 cls | Acc=59.79%
+15. Vote_Majority_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt  | Majority | 5 cls | Acc=59.79%
+16. Vote_Average_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt   | Average  | 5 cls | Acc=59.79%
+17. Vote_Average_3cls_IBk_PART_RandomForest.txt                  | Average  | 3 cls | Acc=59.52%
+18. Vote_Average_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Average  | 5 cls | Acc=59.52%
+19. Vote_Majority_3cls_SMO_PART_J48.txt                          | Majority | 3 cls | Acc=59.26%
+20. Vote_Majority_3cls_IBk_PART_RandomForest.txt                 | Majority | 3 cls | Acc=58.99%
+21. Vote_Average_3cls_SimpleLogistic_JRip_J48.txt                | Average  | 3 cls | Acc=58.99%
+22. Vote_Majority_5cls_SMO_JRip_J48_REPTree_RandomTree.txt       | Majority | 5 cls | Acc=58.99%
+23. Vote_Majority_3cls_REPTree_RandomForest_RandomTree.txt       | Majority | 3 cls | Acc=58.73%
+24. Vote_Average_3cls_REPTree_RandomForest_RandomTree.txt        | Average  | 3 cls | Acc=58.73%
+25. Vote_Average_5cls_SMO_JRip_J48_REPTree_RandomTree.txt        | Average  | 5 cls | Acc=58.47%
+26. Vote_Majority_3cls_SimpleLogistic_JRip_J48.txt               | Majority | 3 cls | Acc=57.94%
+27. Vote_Majority_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt  | Majority | 5 cls | Acc=57.14%
+28. Vote_Majority_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt       | Majority | 5 cls | Acc=57.14%
+29. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Majority | 5 cls | Acc=55.82%
+30. Vote_Majority_3cls_NaiveBayes_IBk_RandomTree.txt             | Majority | 3 cls | Acc=54.76%
+31. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Majority | 5 cls | Acc=53.97%
+32. Vote_Majority_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=51.59%
+33. Vote_Majority_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt  | Majority | 3 cls | Acc=42.06%
+34. Vote_Average_3cls_NaiveBayes_IBk_RandomTree.txt              | Average  | 3 cls | Acc=0.00%
+35. Vote_Average_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt   | Average  | 3 cls | Acc=0.00%
+36. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Average  | 5 cls | Acc=0.00%
+37. Vote_Average_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt   | Average  | 5 cls | Acc=0.00%
+38. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Average  | 5 cls | Acc=0.00%
+39. Vote_Average_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt        | Average  | 5 cls | Acc=0.00%
+40. Vote_Average_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=0.00%
+
+
+    -kmeans_jpeg:
+
+ 1. Vote_Majority_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt  | Majority | 5 cls | Acc=72.22%
+ 2. Vote_Majority_3cls_SimpleLogistic_IBk_J48.txt                | Majority | 3 cls | Acc=71.69%
+ 3. Vote_Average_3cls_SimpleLogistic_IBk_J48.txt                 | Average  | 3 cls | Acc=71.69%
+ 4. Vote_Majority_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt  | Majority | 5 cls | Acc=71.69%
+ 5. Vote_Average_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt   | Average  | 5 cls | Acc=71.69%
+ 6. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Majority | 5 cls | Acc=70.90%
+ 7. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Average  | 5 cls | Acc=70.63%
+ 8. Vote_Majority_3cls_IBk_PART_RandomForest.txt                 | Majority | 3 cls | Acc=70.37%
+ 9. Vote_Majority_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Majority | 5 cls | Acc=70.37%
+10. Vote_Average_3cls_SimpleLogistic_JRip_J48.txt                | Average  | 3 cls | Acc=70.11%
+11. Vote_Majority_5cls_IBk_JRip_PART_REPTree_RandomForest.txt    | Majority | 5 cls | Acc=70.11%
+12. Vote_Average_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Average  | 5 cls | Acc=70.11%
+13. Vote_Majority_5cls_SMO_JRip_J48_REPTree_RandomTree.txt       | Majority | 5 cls | Acc=69.84%
+14. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Average  | 5 cls | Acc=69.84%
+15. Vote_Average_3cls_IBk_PART_RandomForest.txt                  | Average  | 3 cls | Acc=69.58%
+16. Vote_Majority_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=69.58%
+17. Vote_Majority_3cls_SimpleLogistic_JRip_J48.txt               | Majority | 3 cls | Acc=69.31%
+18. Vote_Average_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=69.31%
+19. Vote_Average_5cls_IBk_JRip_PART_REPTree_RandomForest.txt     | Average  | 5 cls | Acc=69.05%
+20. Vote_Average_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt   | Average  | 3 cls | Acc=68.78%
+21. Vote_Average_5cls_SMO_JRip_J48_REPTree_RandomTree.txt        | Average  | 5 cls | Acc=68.78%
+22. Vote_Average_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt   | Average  | 5 cls | Acc=68.78%
+23. Vote_Majority_3cls_IBk_JRip_RandomTree.txt                   | Majority | 3 cls | Acc=68.52%
+24. Vote_Majority_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt  | Majority | 3 cls | Acc=68.52%
+25. Vote_Average_3cls_IBk_JRip_RandomTree.txt                    | Average  | 3 cls | Acc=68.52%
+26. Vote_Average_3cls_SimpleLogistic_PART_REPTree.txt            | Average  | 3 cls | Acc=68.52%
+27. Vote_Majority_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt       | Majority | 5 cls | Acc=68.52%
+28. Vote_Majority_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=68.52%
+29. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Majority | 5 cls | Acc=68.25%
+30. Vote_Majority_3cls_SimpleLogistic_PART_REPTree.txt           | Majority | 3 cls | Acc=67.99%
+31. Vote_Average_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt        | Average  | 5 cls | Acc=67.46%
+32. Vote_Majority_3cls_NaiveBayes_IBk_RandomTree.txt             | Majority | 3 cls | Acc=67.20%
+33. Vote_Average_3cls_NaiveBayes_IBk_RandomTree.txt              | Average  | 3 cls | Acc=67.20%
+34. Vote_Majority_3cls_SMO_PART_J48.txt                          | Majority | 3 cls | Acc=66.93%
+35. Vote_Majority_3cls_REPTree_RandomForest_RandomTree.txt       | Majority | 3 cls | Acc=66.67%
+36. Vote_Majority_3cls_JRip_PART_RandomForest.txt                | Majority | 3 cls | Acc=66.67%
+37. Vote_Average_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=66.67%
+38. Vote_Average_3cls_JRip_PART_RandomForest.txt                 | Average  | 3 cls | Acc=66.14%
+39. Vote_Average_3cls_SMO_PART_J48.txt                           | Average  | 3 cls | Acc=65.34%
+40. Vote_Average_3cls_REPTree_RandomForest_RandomTree.txt        | Average  | 3 cls | Acc=64.81%
+
+    - original_autocolor:
+
+ 1. Vote_Majority_3cls_IBk_PART_RandomForest.txt                 | Majority | 3 cls | Acc=86.77%
+ 2. Vote_Majority_3cls_SimpleLogistic_IBk_J48.txt                | Majority | 3 cls | Acc=86.77%
+ 3. Vote_Average_3cls_SimpleLogistic_IBk_J48.txt                 | Average  | 3 cls | Acc=86.77%
+ 4. Vote_Average_3cls_IBk_PART_RandomForest.txt                  | Average  | 3 cls | Acc=86.24%
+ 5. Vote_Majority_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt  | Majority | 5 cls | Acc=85.45%
+ 6. Vote_Majority_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Majority | 5 cls | Acc=85.19%
+ 7. Vote_Average_5cls_SimpleLogistic_IBk_J48_REPTree_RandomTree.txt | Average  | 5 cls | Acc=85.19%
+ 8. Vote_Majority_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=83.33%
+ 9. Vote_Average_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt   | Average  | 5 cls | Acc=83.07%
+10. Vote_Majority_5cls_NaiveBayes_IBk_PART_J48_RandomForest.txt  | Majority | 5 cls | Acc=82.80%
+11. Vote_Average_5cls_SMO_IBk_PART_RandomForest_RandomTree.txt   | Average  | 5 cls | Acc=82.80%
+12. Vote_Majority_5cls_IBk_JRip_PART_REPTree_RandomForest.txt    | Majority | 5 cls | Acc=81.48%
+13. Vote_Average_5cls_IBk_JRip_PART_REPTree_RandomForest.txt     | Average  | 5 cls | Acc=81.48%
+14. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Majority | 5 cls | Acc=80.69%
+15. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_J48_RandomTree.txt | Average  | 5 cls | Acc=80.42%
+16. Vote_Average_3cls_SimpleLogistic_JRip_J48.txt                | Average  | 3 cls | Acc=80.16%
+17. Vote_Average_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Average  | 5 cls | Acc=79.89%
+18. Vote_Majority_3cls_IBk_JRip_RandomTree.txt                   | Majority | 3 cls | Acc=79.63%
+19. Vote_Majority_3cls_SimpleLogistic_JRip_J48.txt               | Majority | 3 cls | Acc=79.63%
+20. Vote_Average_3cls_IBk_JRip_RandomTree.txt                    | Average  | 3 cls | Acc=79.63%
+21. Vote_Majority_5cls_NaiveBayes_SimpleLogistic_JRip_REPTree_RandomTree.txt | Majority | 5 cls | Acc=79.37%
+22. Vote_Average_5cls_NaiveBayes_SMO_JRip_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=78.84%
+23. Vote_Majority_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt  | Majority | 3 cls | Acc=78.57%
+24. Vote_Average_3cls_NaiveBayes_SimpleLogistic_RandomTree.txt   | Average  | 3 cls | Acc=78.57%
+25. Vote_Majority_3cls_NaiveBayes_IBk_RandomTree.txt             | Majority | 3 cls | Acc=78.04%
+26. Vote_Average_3cls_NaiveBayes_IBk_RandomTree.txt              | Average  | 3 cls | Acc=78.04%
+27. Vote_Majority_5cls_SMO_JRip_J48_REPTree_RandomTree.txt       | Majority | 5 cls | Acc=78.04%
+28. Vote_Majority_3cls_JRip_PART_RandomForest.txt                | Majority | 3 cls | Acc=77.51%
+29. Vote_Majority_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt       | Majority | 5 cls | Acc=77.51%
+30. Vote_Average_3cls_JRip_PART_RandomForest.txt                 | Average  | 3 cls | Acc=76.98%
+31. Vote_Majority_3cls_REPTree_RandomForest_RandomTree.txt       | Majority | 3 cls | Acc=75.40%
+32. Vote_Average_5cls_SMO_JRip_J48_REPTree_RandomTree.txt        | Average  | 5 cls | Acc=75.40%
+33. Vote_Average_5cls_NaiveBayes_SMO_PART_J48_REPTree.txt        | Average  | 5 cls | Acc=75.40%
+34. Vote_Average_3cls_SimpleLogistic_PART_REPTree.txt            | Average  | 3 cls | Acc=75.13%
+35. Vote_Majority_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Majority | 5 cls | Acc=75.13%
+36. Vote_Majority_3cls_SMO_PART_J48.txt                          | Majority | 3 cls | Acc=74.60%
+37. Vote_Majority_3cls_SimpleLogistic_PART_REPTree.txt           | Majority | 3 cls | Acc=74.60%
+38. Vote_Average_5cls_JRip_PART_REPTree_RandomForest_RandomTree.txt | Average  | 5 cls | Acc=74.34%
+39. Vote_Average_3cls_SMO_PART_J48.txt                           | Average  | 3 cls | Acc=73.54%
+40. Vote_Average_3cls_REPTree_RandomForest_RandomTree.txt        | Average  | 3 cls | Acc=70.37%

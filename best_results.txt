@@ -1,0 +1,676 @@
+BAGGING:
+
+- edge_colorlayout:
+
+=== BAGGING (J48, 10 iterations) ===
+
+Correctly Classified Instances         228               60.3175 %
+Incorrectly Classified Instances       150               39.6825 %
+Kappa statistic                          0.5204
+Mean absolute error                      0.1811
+Root mean squared error                  0.3041
+Relative absolute error                 65.4992 %
+Root relative squared error             81.8012 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,808    0,089    0,686      0,808    0,742      0,678    0,929     0,819     P1
+                 0,422    0,080    0,519      0,422    0,466      0,373    0,791     0,497     P2
+                 0,522    0,042    0,632      0,522    0,571      0,521    0,895     0,592     P3
+                 0,655    0,068    0,621      0,655    0,637      0,574    0,902     0,560     P4
+                 0,595    0,112    0,564      0,595    0,579      0,473    0,817     0,544     P5
+                 0,576    0,090    0,576      0,576    0,576      0,486    0,883     0,640     P6
+Weighted Avg.    0,603    0,083    0,599      0,603    0,598      0,518    0,868     0,614     
+
+=== Confusion Matrix ===
+59 5 0 3 3 3
+8 27 2 4 13 10
+2 1 24 10 5 4
+5 2 6 36 3 3
+3 10 4 5 44 8
+9 7 2 0 10 38
+
+
+- kmeans_autocolor:
+
+=== BAGGING (RandomForest, 10 iterations) ===
+
+Correctly Classified Instances         227               60.0529 %
+Incorrectly Classified Instances       151               39.9471 %
+Kappa statistic                          0.5177
+Mean absolute error                      0.1583
+Root mean squared error                  0.293 
+Relative absolute error                 57.262  %
+Root relative squared error             78.8135 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,863    0,020    0,913      0,863    0,887      0,862    0,986     0,953     P1
+                 0,797    0,064    0,718      0,797    0,756      0,704    0,939     0,814     P2
+                 0,413    0,075    0,432      0,413    0,422      0,344    0,853     0,456     P3
+                 0,473    0,068    0,542      0,473    0,505      0,428    0,883     0,616     P4
+                 0,500    0,148    0,451      0,500    0,474      0,339    0,822     0,513     P5
+                 0,470    0,106    0,484      0,470    0,477      0,368    0,851     0,525     P6
+Weighted Avg.    0,601    0,081    0,602      0,601    0,600      0,521    0,891     0,659     
+
+=== Confusion Matrix ===
+63 8 0 0 2 0
+4 51 0 3 1 5
+0 2 19 11 10 4
+0 3 13 26 9 4
+1 3 8 5 37 20
+1 4 4 3 23 31
+ 
+- kmeans_jpeg:
+
+=== BAGGING (RandomForest, 5 iterations) ===
+
+Correctly Classified Instances         274               72.4868 %
+Incorrectly Classified Instances       104               27.5132 %
+Kappa statistic                          0.6674
+Mean absolute error                      0.1523
+Root mean squared error                  0.2584
+Relative absolute error                 55.103  %
+Root relative squared error             69.4924 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,863    0,003    0,984      0,863    0,920      0,905    0,994     0,979     P1
+                 0,922    0,051    0,787      0,922    0,849      0,819    0,982     0,942     P2
+                 0,457    0,036    0,636      0,457    0,532      0,487    0,879     0,549     P3
+                 0,673    0,065    0,638      0,673    0,655      0,595    0,906     0,638     P4
+                 0,716    0,132    0,570      0,716    0,635      0,539    0,905     0,699     P5
+                 0,621    0,045    0,745      0,621    0,678      0,621    0,915     0,743     P6
+Weighted Avg.    0,725    0,057    0,735      0,725    0,724      0,673    0,934     0,775     
+
+=== Confusion Matrix ===
+63 9 0 0 0 1
+0 59 1 2 1 1
+0 0 21 12 12 1
+0 2 5 37 8 3
+0 2 4 7 53 8
+1 3 2 0 19 41
+
+
+-original_autocolor:
+
+=== BAGGING (SMO, 5 iterations) ===
+
+Correctly Classified Instances         315               83.3333 %
+Incorrectly Classified Instances        63               16.6667 %
+Kappa statistic                          0.7989
+Mean absolute error                      0.2292
+Root mean squared error                  0.319 
+Relative absolute error                 82.8862 %
+Root relative squared error             85.7842 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,959    0,013    0,946      0,959    0,952      0,941    0,992     0,956     P1
+                 0,891    0,019    0,905      0,891    0,898      0,877    0,985     0,939     P2
+                 0,739    0,033    0,756      0,739    0,747      0,713    0,965     0,741     P3
+                 0,764    0,034    0,792      0,764    0,778      0,741    0,951     0,786     P4
+                 0,730    0,066    0,730      0,730    0,730      0,664    0,902     0,739     P5
+                 0,879    0,035    0,841      0,879    0,859      0,829    0,963     0,905     P6
+Weighted Avg.    0,833    0,034    0,833      0,833    0,833      0,799    0,959     0,851     
+
+=== Confusion Matrix ===
+70 2 1 0 0 0
+4 57 0 0 3 0
+0 1 34 4 7 0
+0 0 3 42 5 5
+0 2 6 6 54 6
+0 1 1 1 5 58
+
+BOOSTING:
+
+- edge_colorlayout:
+
+=== BOOSTING (J48, 15 iterations) ===
+
+Correctly Classified Instances         218               57.672  %
+Incorrectly Classified Instances       160               42.328  %
+Kappa statistic                          0.4879
+Mean absolute error                      0.1435
+Root mean squared error                  0.3526
+Relative absolute error                 51.8906 %
+Root relative squared error             94.8345 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,712    0,072    0,703      0,712    0,707      0,637    0,886     0,787     P1
+                 0,469    0,096    0,500      0,469    0,484      0,383    0,799     0,492     P2
+                 0,478    0,051    0,564      0,478    0,518      0,459    0,819     0,514     P3
+                 0,473    0,062    0,565      0,473    0,515      0,443    0,872     0,598     P4
+                 0,622    0,145    0,511      0,622    0,561      0,444    0,831     0,537     P5
+                 0,636    0,087    0,609      0,636    0,622      0,540    0,880     0,688     P6
+Weighted Avg.    0,577    0,089    0,578      0,577    0,575      0,489    0,849     0,610     
+
+=== Confusion Matrix ===
+52 8 0 4 5 4
+7 30 2 2 15 8
+3 2 22 7 7 5
+3 6 11 26 7 2
+4 8 3 5 46 8
+5 6 1 2 10 42
+
+- kmeans_autocolor:
+
+=== BOOSTING (RandomTree, 5 iterations) ===
+
+Correctly Classified Instances         229               60.582  %
+Incorrectly Classified Instances       149               39.418  %
+Kappa statistic                          0.525 
+Mean absolute error                      0.1466
+Root mean squared error                  0.3221
+Relative absolute error                 53.0106 %
+Root relative squared error             86.6404 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,863    0,013    0,940      0,863    0,900      0,879    0,960     0,915     P1
+                 0,813    0,067    0,712      0,813    0,759      0,708    0,905     0,735     P2
+                 0,565    0,087    0,473      0,565    0,515      0,443    0,789     0,442     P3
+                 0,400    0,071    0,489      0,400    0,440      0,358    0,774     0,404     P4
+                 0,500    0,135    0,474      0,500    0,487      0,358    0,788     0,461     P5
+                 0,439    0,099    0,483      0,439    0,460      0,353    0,747     0,467     P6
+Weighted Avg.    0,606    0,079    0,608      0,606    0,605      0,527    0,832     0,585     
+
+=== Confusion Matrix ===
+63 9 0 1 0 0
+2 52 0 3 2 5
+0 2 26 9 7 2
+0 3 17 22 9 4
+1 3 8 5 37 20
+1 4 4 5 23 29
+ 
+- kmeans_jpeg:
+
+=== BOOSTING (J48, 15 iterations) ===
+
+Correctly Classified Instances         276               73.0159 %
+Incorrectly Classified Instances       102               26.9841 %
+Kappa statistic                          0.6741
+Mean absolute error                      0.0903
+Root mean squared error                  0.2879
+Relative absolute error                 32.6529 %
+Root relative squared error             77.4297 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,890    0,007    0,970      0,890    0,929      0,914    0,967     0,954     P1
+                 0,953    0,051    0,792      0,953    0,865      0,840    0,972     0,926     P2
+                 0,435    0,045    0,571      0,435    0,494      0,439    0,834     0,530     P3
+                 0,582    0,062    0,615      0,582    0,598      0,532    0,905     0,587     P4
+                 0,649    0,089    0,640      0,649    0,644      0,557    0,882     0,672     P5
+                 0,758    0,071    0,694      0,758    0,725      0,664    0,923     0,749     P6
+Weighted Avg.    0,730    0,054    0,727      0,730    0,726      0,675    0,918     0,753     
+
+=== Confusion Matrix ===
+65 6 0 0 0 2
+0 61 2 1 0 0
+0 4 20 10 11 1
+0 3 9 32 6 5
+0 2 3 7 48 14
+2 1 1 2 10 50
+
+-original_autocolor:
+
+=== BOOSTING (PART, 15 iterations) ===
+
+Correctly Classified Instances         314               83.0688 %
+Incorrectly Classified Instances        64               16.9312 %
+Kappa statistic                          0.7956
+Mean absolute error                      0.0574
+Root mean squared error                  0.227 
+Relative absolute error                 20.7644 %
+Root relative squared error             61.0429 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,945    0,013    0,945      0,945    0,945      0,932    0,989     0,971     P1
+                 0,875    0,013    0,933      0,875    0,903      0,885    0,982     0,958     P2
+                 0,630    0,030    0,744      0,630    0,682      0,645    0,948     0,777     P3
+                 0,818    0,046    0,750      0,818    0,783      0,745    0,969     0,830     P4
+                 0,784    0,069    0,734      0,784    0,758      0,697    0,939     0,825     P5
+                 0,864    0,032    0,851      0,864    0,857      0,827    0,976     0,934     P6
+Weighted Avg.    0,831    0,034    0,832      0,831    0,830      0,798    0,968     0,890     
+
+=== Confusion Matrix ===
+69 2 1 0 1 0
+3 56 1 0 4 0
+1 1 29 4 8 3
+0 0 3 45 3 4
+0 1 5 7 58 3
+0 0 0 4 5 57
+
+STACKING A:
+
+- edge_colorlayout:
+
+=== STACKING A (SMO) ===
+Base layer: weka.classifiers.bayes.NaiveBayes, weka.classifiers.functions.SimpleLogistic, weka.classifiers.trees.J48
+
+Correctly Classified Instances         230               60.8466 %
+Incorrectly Classified Instances       148               39.1534 %
+Kappa statistic                          0.5278
+Mean absolute error                      0.2392
+Root mean squared error                  0.3362
+Relative absolute error                 86.5224 %
+Root relative squared error             90.4315 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,753    0,062    0,743      0,753    0,748      0,688    0,910     0,669     P1
+                 0,625    0,121    0,513      0,625    0,563      0,467    0,789     0,428     P2
+                 0,587    0,027    0,750      0,587    0,659      0,624    0,890     0,562     P3
+                 0,745    0,068    0,651      0,745    0,695      0,641    0,890     0,588     P4
+                 0,432    0,105    0,500      0,432    0,464      0,346    0,770     0,394     P5
+                 0,530    0,090    0,556      0,530    0,543      0,449    0,791     0,425     P6
+Weighted Avg.    0,608    0,082    0,611      0,608    0,607      0,527    0,836     0,507     
+
+=== Confusion Matrix ===
+55 11 0 3 1 3
+6 40 0 2 9 7
+0 2 27 9 5 3
+5 1 4 41 2 2
+2 17 4 6 32 13
+6 7 1 2 15 35
+
+- kmeans_autocolor:
+
+=== STACKING A (RandomForest) ===
+Base layer: weka.classifiers.trees.REPTree, weka.classifiers.functions.SimpleLogistic, weka.classifiers.trees.J48
+
+Correctly Classified Instances         238               62.963  %
+Incorrectly Classified Instances       140               37.037  %
+Kappa statistic                          0.5526
+Mean absolute error                      0.1595
+Root mean squared error                  0.2868
+Relative absolute error                 57.7028 %
+Root relative squared error             77.148  %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,863    0,020    0,913      0,863    0,887      0,862    0,981     0,952     P1
+                 0,859    0,061    0,743      0,859    0,797      0,755    0,957     0,831     P2
+                 0,522    0,060    0,545      0,522    0,533      0,470    0,887     0,455     P3
+                 0,491    0,053    0,614      0,491    0,545      0,482    0,861     0,624     P4
+                 0,514    0,158    0,442      0,514    0,475      0,337    0,813     0,436     P5
+                 0,470    0,096    0,508      0,470    0,488      0,385    0,846     0,526     P6
+Weighted Avg.    0,630    0,077    0,633      0,630    0,629      0,555    0,892     0,648     
+
+=== Confusion Matrix ===
+63 9 0 0 1 0
+5 55 1 0 1 2
+0 0 24 9 8 5
+0 1 7 27 12 8
+0 5 9 7 38 15
+1 4 3 1 26 31
+
+ 
+- kmeans_jpeg:
+
+=== STACKING A (SimpleLogistic) ===
+Base layer: weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.RandomTree, weka.classifiers.trees.RandomForest
+
+Correctly Classified Instances         282               74.6032 %
+Incorrectly Classified Instances        96               25.3968 %
+Kappa statistic                          0.6933
+Mean absolute error                      0.1231
+Root mean squared error                  0.2456
+Relative absolute error                 44.5159 %
+Root relative squared error             66.0674 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,945    0,007    0,972      0,945    0,958      0,949    0,988     0,974     P1
+                 0,906    0,022    0,892      0,906    0,899      0,879    0,981     0,952     P2
+                 0,500    0,066    0,511      0,500    0,505      0,438    0,876     0,518     P3
+                 0,582    0,050    0,667      0,582    0,621      0,564    0,920     0,624     P4
+                 0,730    0,099    0,643      0,730    0,684      0,602    0,896     0,720     P5
+                 0,697    0,061    0,708      0,697    0,702      0,640    0,909     0,741     P6
+Weighted Avg.    0,746    0,050    0,747      0,746    0,746      0,697    0,931     0,773     
+
+=== Confusion Matrix ===
+69 3 0 0 0 1
+0 58 2 2 1 1
+0 0 23 11 11 1
+0 0 13 32 5 5
+1 1 4 3 54 11
+1 3 3 0 13 46
+
+
+-original_autocolor:
+
+=== STACKING A (SMO) ===
+Base layer: weka.classifiers.lazy.IBk, weka.classifiers.trees.RandomForest, weka.classifiers.functions.SimpleLogistic
+
+Correctly Classified Instances         332               87.8307 %
+Incorrectly Classified Instances        46               12.1693 %
+Kappa statistic                          0.8533
+Mean absolute error                      0.227 
+Root mean squared error                  0.3177
+Relative absolute error                 82.1207 %
+Root relative squared error             85.4358 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,959    0,013    0,946      0,959    0,952      0,941    0,978     0,935     P1
+                 0,953    0,019    0,910      0,953    0,931      0,917    0,983     0,902     P2
+                 0,761    0,039    0,729      0,761    0,745      0,709    0,932     0,640     P3
+                 0,836    0,022    0,868      0,836    0,852      0,827    0,965     0,807     P4
+                 0,797    0,033    0,855      0,797    0,825      0,785    0,894     0,739     P5
+                 0,924    0,019    0,910      0,924    0,917      0,900    0,965     0,872     P6
+Weighted Avg.    0,878    0,023    0,878      0,878    0,878      0,854    0,953     0,826     
+
+=== Confusion Matrix ===
+70 2 1 0 0 0
+3 61 0 0 0 0
+0 1 35 4 4 2
+0 0 5 46 4 0
+1 2 5 3 59 4
+0 1 2 0 2 61
+
+
+STACKING B: 
+
+- edge_colorlayout:
+
+=== STACKING B (RandomForest) ===
+Base layer: weka.classifiers.bayes.NaiveBayes, weka.classifiers.functions.SimpleLogistic, weka.classifiers.trees.RandomForest, weka.classifiers.functions.SMO, weka.classifiers.lazy.IBk
+
+Correctly Classified Instances         239               63.2275 %
+Incorrectly Classified Instances       139               36.7725 %
+Kappa statistic                          0.5565
+Mean absolute error                      0.178 
+Root mean squared error                  0.2907
+Relative absolute error                 64.3941 %
+Root relative squared error             78.1797 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,699    0,056    0,750      0,699    0,723      0,661    0,927     0,820     P1
+                 0,531    0,108    0,500      0,531    0,515      0,413    0,856     0,535     P2
+                 0,587    0,036    0,692      0,587    0,635      0,592    0,903     0,669     P3
+                 0,727    0,077    0,615      0,727    0,667      0,607    0,919     0,696     P4
+                 0,622    0,099    0,605      0,622    0,613      0,518    0,853     0,669     P5
+                 0,621    0,067    0,661      0,621    0,641      0,568    0,904     0,692     P6
+Weighted Avg.    0,632    0,076    0,637      0,632    0,633      0,558    0,892     0,684     
+
+=== Confusion Matrix ===
+51 14 0 2 3 3
+11 34 0 2 9 8
+1 0 27 11 4 3
+3 2 5 40 3 2
+1 11 5 6 46 5
+1 7 2 4 11 41
+
+- kmeans_autocolor:
+
+=== STACKING B (RandomForest) ===
+Base layer: weka.classifiers.rules.JRip, weka.classifiers.trees.REPTree, weka.classifiers.lazy.IBk, weka.classifiers.functions.SimpleLogistic, weka.classifiers.bayes.NaiveBayes
+
+Correctly Classified Instances         247               65.3439 %
+Incorrectly Classified Instances       131               34.6561 %
+Kappa statistic                          0.5813
+Mean absolute error                      0.1621
+Root mean squared error                  0.2842
+Relative absolute error                 58.6155 %
+Root relative squared error             76.4236 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,918    0,033    0,870      0,918    0,893      0,867    0,987     0,949     P1
+                 0,766    0,041    0,790      0,766    0,778      0,733    0,954     0,842     P2
+                 0,478    0,066    0,500      0,478    0,489      0,420    0,878     0,449     P3
+                 0,509    0,053    0,622      0,509    0,560      0,497    0,861     0,613     P4
+                 0,568    0,125    0,525      0,568    0,545      0,430    0,829     0,467     P5
+                 0,591    0,099    0,557      0,591    0,574      0,480    0,878     0,613     P6
+Weighted Avg.    0,653    0,071    0,653      0,653    0,652      0,583    0,900     0,668     
+
+=== Confusion Matrix ===
+67 5 0 0 1 0
+8 49 0 1 1 5
+0 1 22 11 6 6
+0 2 11 28 9 5
+1 3 8 5 42 15
+1 2 3 0 21 39
+
+ 
+- kmeans_jpeg:
+
+=== STACKING B (RandomForest) ===
+Base layer: weka.classifiers.trees.RandomForest, weka.classifiers.trees.J48, weka.classifiers.trees.REPTree, weka.classifiers.rules.PART, weka.classifiers.functions.SMO
+
+Correctly Classified Instances         287               75.9259 %
+Incorrectly Classified Instances        91               24.0741 %
+Kappa statistic                          0.709 
+Mean absolute error                      0.1306
+Root mean squared error                  0.2498
+Relative absolute error                 47.2343 %
+Root relative squared error             67.176  %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,918    0,007    0,971      0,918    0,944      0,931    0,984     0,962     P1
+                 0,891    0,025    0,877      0,891    0,884      0,860    0,985     0,953     P2
+                 0,478    0,036    0,647      0,478    0,550      0,505    0,884     0,544     P3
+                 0,673    0,068    0,627      0,673    0,649      0,587    0,894     0,615     P4
+                 0,770    0,109    0,633      0,770    0,695      0,616    0,912     0,685     P5
+                 0,712    0,045    0,770      0,712    0,740      0,689    0,914     0,700     P6
+Weighted Avg.    0,759    0,049    0,765      0,759    0,759      0,713    0,933     0,759     
+
+=== Confusion Matrix ===
+67 5 0 0 0 1
+1 57 2 3 0 1
+0 0 22 12 11 1
+0 0 8 37 8 2
+0 2 2 4 57 9
+1 1 0 3 14 47
+
+
+-original_autocolor:
+
+=== STACKING B (RandomForest) ===
+Base layer: weka.classifiers.trees.RandomTree, weka.classifiers.bayes.NaiveBayes, weka.classifiers.trees.REPTree, weka.classifiers.functions.SimpleLogistic, weka.classifiers.lazy.IBk
+
+Correctly Classified Instances         337               89.1534 %
+Incorrectly Classified Instances        41               10.8466 %
+Kappa statistic                          0.8693
+Mean absolute error                      0.0867
+Root mean squared error                  0.1855
+Relative absolute error                 31.3648 %
+Root relative squared error             49.9012 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,959    0,007    0,972      0,959    0,966      0,957    0,994     0,986     P1
+                 0,953    0,013    0,938      0,953    0,946      0,935    0,998     0,989     P2
+                 0,870    0,024    0,833      0,870    0,851      0,830    0,962     0,854     P3
+                 0,818    0,031    0,818      0,818    0,818      0,787    0,973     0,889     P4
+                 0,811    0,033    0,857      0,811    0,833      0,795    0,955     0,864     P5
+                 0,924    0,022    0,897      0,924    0,910      0,891    0,969     0,947     P6
+Weighted Avg.    0,892    0,021    0,892      0,892    0,891      0,870    0,976     0,926     
+
+=== Confusion Matrix ===
+70 2 1 0 0 0
+2 61 0 1 0 0
+0 1 40 2 2 1
+0 1 3 45 5 1
+0 0 4 5 60 5
+0 0 0 2 3 61
+
+VOTING:
+
+- edge_colorlayout:
+
+=== VOTING EXPERIMENT ===
+Voting rule: Average (AVG)
+Base classifiers (5): weka.classifiers.bayes.NaiveBayes, weka.classifiers.functions.SMO, weka.classifiers.rules.PART, weka.classifiers.trees.J48, weka.classifiers.trees.REPTree
+
+
+Correctly Classified Instances         221               58.4656 %
+Incorrectly Classified Instances       157               41.5344 %
+Kappa statistic                          0.4979
+Mean absolute error                      0.1914
+Root mean squared error                  0.3008
+Relative absolute error                 69.228  %
+Root relative squared error             80.8985 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,753    0,075    0,705      0,753    0,728      0,661    0,934     0,832     P1
+                 0,547    0,108    0,507      0,547    0,526      0,426    0,832     0,477     P2
+                 0,457    0,036    0,636      0,457    0,532      0,487    0,894     0,634     P3
+                 0,655    0,077    0,590      0,655    0,621      0,553    0,918     0,685     P4
+                 0,541    0,141    0,482      0,541    0,510      0,383    0,826     0,529     P5
+                 0,515    0,064    0,630      0,515    0,567      0,489    0,889     0,696     P6
+Weighted Avg.    0,585    0,087    0,590      0,585    0,584      0,500    0,880     0,644     
+
+=== Confusion Matrix ===
+55 8 0 4 5 1
+5 35 1 3 13 7
+4 0 21 8 9 4
+3 5 7 36 4 0
+2 13 2 9 40 8
+9 8 2 1 12 34
+
+- kmeans_autocolor:
+
+=== VOTING EXPERIMENT ===
+Voting rule: Average (AVG)
+Base classifiers (3): weka.classifiers.functions.SimpleLogistic, weka.classifiers.rules.PART, weka.classifiers.trees.REPTree
+
+
+Correctly Classified Instances         239               63.2275 %
+Incorrectly Classified Instances       139               36.7725 %
+Kappa statistic                          0.5556
+Mean absolute error                      0.1671
+Root mean squared error                  0.2867
+Relative absolute error                 60.4216 %
+Root relative squared error             77.1064 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,849    0,020    0,912      0,849    0,879      0,853    0,980     0,946     P1
+                 0,797    0,067    0,708      0,797    0,750      0,697    0,946     0,748     P2
+                 0,500    0,072    0,489      0,500    0,495      0,424    0,860     0,443     P3
+                 0,436    0,053    0,585      0,436    0,500      0,435    0,869     0,582     P4
+                 0,676    0,148    0,526      0,676    0,592      0,483    0,852     0,514     P5
+                 0,439    0,083    0,527      0,439    0,479      0,383    0,854     0,567     P6
+Weighted Avg.    0,632    0,075    0,636      0,632    0,629      0,559    0,896     0,648     
+
+=== Confusion Matrix ===
+62 10 0 0 1 0
+5 51 1 2 1 4
+0 2 23 9 7 5
+0 3 13 24 8 7
+0 4 7 3 50 10
+1 2 3 3 28 29
+ 
+- kmeans_jpeg:
+
+=== VOTING EXPERIMENT ===
+Voting rule: Majority (MAJ)
+Base classifiers (5): weka.classifiers.functions.SMO, weka.classifiers.lazy.IBk, weka.classifiers.rules.PART, weka.classifiers.trees.RandomForest, weka.classifiers.trees.RandomTree
+
+
+Correctly Classified Instances         273               72.2222 %
+Incorrectly Classified Instances       105               27.7778 %
+Kappa statistic                          0.6648
+Mean absolute error                      0.0926
+Root mean squared error                  0.3043
+Relative absolute error                 33.4905 %
+Root relative squared error             81.8394 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,836    0,007    0,968      0,836    0,897      0,878    0,915     0,841     P1
+                 0,906    0,041    0,817      0,906    0,859      0,830    0,932     0,756     P2
+                 0,435    0,048    0,556      0,435    0,488      0,431    0,693     0,310     P3
+                 0,691    0,071    0,623      0,691    0,655      0,594    0,810     0,475     P4
+                 0,662    0,095    0,628      0,662    0,645      0,556    0,783     0,482     P5
+                 0,712    0,071    0,681      0,712    0,696      0,631    0,821     0,535     P6
+Weighted Avg.    0,722    0,055    0,725      0,722    0,721      0,668    0,833     0,585     
+
+=== Confusion Matrix ===
+61 11 0 0 0 1
+0 58 3 2 0 1
+0 0 20 12 11 3
+0 0 5 38 7 5
+1 0 5 7 49 12
+1 2 3 2 11 47
+
+-original_autocolor:
+
+=== VOTING EXPERIMENT ===
+Voting rule: Majority (MAJ)
+Base classifiers (3): weka.classifiers.lazy.IBk, weka.classifiers.rules.PART, weka.classifiers.trees.RandomForest
+
+
+Correctly Classified Instances         328               86.7725 %
+Incorrectly Classified Instances        50               13.2275 %
+Kappa statistic                          0.84  
+Mean absolute error                      0.0441
+Root mean squared error                  0.21  
+Relative absolute error                 15.9478 %
+Root relative squared error             56.4746 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,973    0,007    0,973      0,973    0,973      0,966    0,983     0,951     P1
+                 0,938    0,013    0,938      0,938    0,938      0,925    0,962     0,889     P2
+                 0,609    0,009    0,903      0,609    0,727      0,715    0,800     0,597     P3
+                 0,818    0,028    0,833      0,818    0,826      0,796    0,895     0,708     P4
+                 0,824    0,063    0,763      0,824    0,792      0,740    0,881     0,663     P5
+                 0,955    0,042    0,829      0,955    0,887      0,865    0,956     0,799     P6
+Weighted Avg.    0,868    0,028    0,872      0,868    0,865      0,842    0,920     0,779     
+
+=== Confusion Matrix ===
+71 2 0 0 0 0
+2 60 0 0 2 0
+0 1 28 4 10 3
+0 0 1 45 5 4
+0 0 2 5 61 6
+0 1 0 0 2 63
