@@ -1,0 +1,29 @@
+=== BAGGING (SimpleLogistic, 5 iterations) ===
+
+Correctly Classified Instances         312               82.5397 %
+Incorrectly Classified Instances        66               17.4603 %
+Kappa statistic                          0.7895
+Mean absolute error                      0.0866
+Root mean squared error                  0.209 
+Relative absolute error                 31.3256 %
+Root relative squared error             56.2172 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,918    0,016    0,931      0,918    0,924      0,906    0,989     0,979     P1
+                 0,891    0,025    0,877      0,891    0,884      0,860    0,989     0,957     P2
+                 0,739    0,033    0,756      0,739    0,747      0,713    0,967     0,731     P3
+                 0,745    0,037    0,774      0,745    0,759      0,719    0,952     0,803     P4
+                 0,716    0,053    0,768      0,716    0,741      0,682    0,921     0,829     P5
+                 0,909    0,045    0,811      0,909    0,857      0,827    0,982     0,936     P6
+Weighted Avg.    0,825    0,035    0,825      0,825    0,824      0,790    0,966     0,882     
+
+=== Confusion Matrix ===
+67 5 1 0 0 0
+3 57 1 1 2 0
+1 2 34 3 4 2
+0 0 3 41 7 4
+1 1 5 6 53 8
+0 0 1 2 3 60

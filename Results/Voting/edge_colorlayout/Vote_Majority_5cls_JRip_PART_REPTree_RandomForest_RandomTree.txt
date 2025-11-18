@@ -1,0 +1,32 @@
+=== VOTING EXPERIMENT ===
+Voting rule: Majority (MAJ)
+Base classifiers (5): weka.classifiers.rules.JRip, weka.classifiers.rules.PART, weka.classifiers.trees.REPTree, weka.classifiers.trees.RandomForest, weka.classifiers.trees.RandomTree
+
+
+Correctly Classified Instances         209               55.291  %
+Incorrectly Classified Instances       169               44.709  %
+Kappa statistic                          0.4584
+Mean absolute error                      0.149 
+Root mean squared error                  0.386 
+Relative absolute error                 53.9037 %
+Root relative squared error            103.8273 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,685    0,082    0,667      0,685    0,676      0,597    0,801     0,517     P1
+                 0,453    0,089    0,509      0,453    0,479      0,381    0,682     0,323     P2
+                 0,457    0,036    0,636      0,457    0,532      0,487    0,710     0,357     P3
+                 0,582    0,074    0,571      0,582    0,577      0,504    0,754     0,393     P4
+                 0,608    0,197    0,429      0,608    0,503      0,364    0,705     0,337     P5
+                 0,485    0,064    0,615      0,485    0,542      0,464    0,710     0,388     P6
+Weighted Avg.    0,553    0,096    0,567      0,553    0,553      0,465    0,728     0,389     
+
+=== Confusion Matrix ===
+50 7 0 6 8 2
+8 29 1 2 17 7
+3 1 21 10 8 3
+4 1 5 32 9 4
+2 12 5 6 45 4
+8 7 1 0 18 32

@@ -1,0 +1,30 @@
+=== STACKING A (SMO) ===
+Base layer: weka.classifiers.trees.RandomForest, weka.classifiers.trees.RandomTree, weka.classifiers.trees.REPTree
+
+Correctly Classified Instances         257               67.9894 %
+Incorrectly Classified Instances       121               32.0106 %
+Kappa statistic                          0.613 
+Mean absolute error                      0.2351
+Root mean squared error                  0.3302
+Relative absolute error                 85.0339 %
+Root relative squared error             88.8007 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,890    0,013    0,942      0,890    0,915      0,897    0,978     0,901     P1
+                 0,891    0,051    0,781      0,891    0,832      0,798    0,950     0,742     P2
+                 0,391    0,051    0,514      0,391    0,444      0,384    0,838     0,368     P3
+                 0,491    0,093    0,474      0,491    0,482      0,392    0,805     0,382     P4
+                 0,689    0,132    0,560      0,689    0,618      0,518    0,840     0,492     P5
+                 0,591    0,045    0,736      0,591    0,655      0,597    0,813     0,543     P6
+Weighted Avg.    0,680    0,064    0,684      0,680    0,677      0,618    0,875     0,591     
+
+=== Confusion Matrix ===
+65 7 0 0 0 1
+3 57 1 3 0 0
+0 2 18 14 12 0
+0 2 13 27 10 3
+0 2 3 8 51 10
+1 3 0 5 18 39

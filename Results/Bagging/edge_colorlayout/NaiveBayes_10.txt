@@ -1,0 +1,29 @@
+=== BAGGING (NaiveBayes, 10 iterations) ===
+
+Correctly Classified Instances         205               54.2328 %
+Incorrectly Classified Instances       173               45.7672 %
+Kappa statistic                          0.448 
+Mean absolute error                      0.1716
+Root mean squared error                  0.3147
+Relative absolute error                 62.0553 %
+Root relative squared error             84.6485 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,658    0,092    0,632      0,658    0,644      0,557    0,916     0,785     P1
+                 0,563    0,175    0,396      0,563    0,465      0,340    0,806     0,403     P2
+                 0,500    0,033    0,676      0,500    0,575      0,533    0,880     0,647     P3
+                 0,691    0,068    0,633      0,691    0,661      0,601    0,924     0,686     P4
+                 0,405    0,086    0,536      0,405    0,462      0,357    0,823     0,520     P5
+                 0,455    0,099    0,492      0,455    0,472      0,367    0,831     0,532     P6
+Weighted Avg.    0,542    0,095    0,554      0,542    0,542      0,451    0,861     0,593     
+
+=== Confusion Matrix ===
+48 17 1 1 1 5
+14 36 0 2 6 6
+2 2 23 10 4 5
+3 6 5 38 1 2
+2 21 2 6 30 13
+7 9 3 3 14 30

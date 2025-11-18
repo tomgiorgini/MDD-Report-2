@@ -1,0 +1,24 @@
+ 1. RandomTree      | Iter=5  | Accuracy=60.58%
+ 2. RandomTree      | Iter=10 | Accuracy=60.58%
+ 3. RandomTree      | Iter=15 | Accuracy=60.58%
+ 4. J48             | Iter=10 | Accuracy=58.99%
+ 5. J48             | Iter=15 | Accuracy=58.99%
+ 6. PART            | Iter=5  | Accuracy=58.99%
+ 7. PART            | Iter=10 | Accuracy=58.99%
+ 8. J48             | Iter=5  | Accuracy=58.73%
+ 9. PART            | Iter=15 | Accuracy=58.47%
+10. REPTree         | Iter=10 | Accuracy=57.14%
+11. REPTree         | Iter=15 | Accuracy=57.14%
+12. REPTree         | Iter=5  | Accuracy=56.88%
+13. SimpleLogistic  | Iter=5  | Accuracy=55.03%
+14. SimpleLogistic  | Iter=10 | Accuracy=55.03%
+15. SimpleLogistic  | Iter=15 | Accuracy=55.03%
+16. JRip            | Iter=5  | Accuracy=51.32%
+17. JRip            | Iter=10 | Accuracy=51.32%
+18. JRip            | Iter=15 | Accuracy=51.32%
+19. DecisionStump   | Iter=5  | Accuracy=34.92%
+20. DecisionStump   | Iter=10 | Accuracy=34.92%
+21. DecisionStump   | Iter=15 | Accuracy=34.92%
+22. NaiveBayes      | Iter=5  | Accuracy=0.00%
+23. NaiveBayes      | Iter=10 | Accuracy=0.00%
+24. NaiveBayes      | Iter=15 | Accuracy=0.00%

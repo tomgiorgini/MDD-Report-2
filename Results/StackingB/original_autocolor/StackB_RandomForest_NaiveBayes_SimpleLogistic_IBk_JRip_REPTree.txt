@@ -1,0 +1,30 @@
+=== STACKING B (RandomForest) ===
+Base layer: weka.classifiers.rules.JRip, weka.classifiers.trees.REPTree, weka.classifiers.lazy.IBk, weka.classifiers.functions.SimpleLogistic, weka.classifiers.bayes.NaiveBayes
+
+Correctly Classified Instances         330               87.3016 %
+Incorrectly Classified Instances        48               12.6984 %
+Kappa statistic                          0.847 
+Mean absolute error                      0.0855
+Root mean squared error                  0.1841
+Relative absolute error                 30.9321 %
+Root relative squared error             49.5075 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,945    0,007    0,972      0,945    0,958      0,949    0,972     0,977     P1
+                 0,922    0,025    0,881      0,922    0,901      0,880    0,997     0,985     P2
+                 0,739    0,021    0,829      0,739    0,782      0,755    0,934     0,807     P3
+                 0,891    0,043    0,778      0,891    0,831      0,802    0,986     0,915     P4
+                 0,757    0,033    0,848      0,757    0,800      0,757    0,958     0,854     P5
+                 0,955    0,022    0,900      0,955    0,926      0,911    0,976     0,951     P6
+Weighted Avg.    0,873    0,025    0,874      0,873    0,872      0,848    0,972     0,920     
+
+=== Confusion Matrix ===
+69 3 0 0 0 1
+2 59 1 1 1 0
+0 2 34 4 4 2
+0 1 2 49 3 0
+0 1 4 9 56 4
+0 1 0 0 2 63

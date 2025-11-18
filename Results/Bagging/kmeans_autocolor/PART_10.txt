@@ -1,0 +1,29 @@
+=== BAGGING (PART, 10 iterations) ===
+
+Correctly Classified Instances         227               60.0529 %
+Incorrectly Classified Instances       151               39.9471 %
+Kappa statistic                          0.5182
+Mean absolute error                      0.1524
+Root mean squared error                  0.2907
+Relative absolute error                 55.1248 %
+Root relative squared error             78.171  %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,863    0,023    0,900      0,863    0,881      0,854    0,976     0,919     P1
+                 0,750    0,054    0,738      0,750    0,744      0,692    0,940     0,761     P2
+                 0,457    0,075    0,457      0,457    0,457      0,381    0,855     0,467     P3
+                 0,527    0,071    0,558      0,527    0,542      0,467    0,856     0,629     P4
+                 0,446    0,141    0,434      0,446    0,440      0,301    0,824     0,489     P5
+                 0,500    0,115    0,478      0,500    0,489      0,378    0,848     0,558     P6
+Weighted Avg.    0,601    0,081    0,604      0,601    0,602      0,521    0,886     0,648     
+
+=== Confusion Matrix ===
+63 6 0 0 3 1
+5 48 1 2 2 6
+0 1 21 11 10 3
+0 2 12 29 7 5
+1 4 7 8 33 21
+1 4 5 2 21 33

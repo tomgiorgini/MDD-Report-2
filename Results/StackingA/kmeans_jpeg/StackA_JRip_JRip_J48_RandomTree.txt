@@ -1,0 +1,30 @@
+=== STACKING A (JRip) ===
+Base layer: weka.classifiers.rules.JRip, weka.classifiers.trees.J48, weka.classifiers.trees.RandomTree
+
+Correctly Classified Instances         223               58.9947 %
+Incorrectly Classified Instances       155               41.0053 %
+Kappa statistic                          0.5014
+Mean absolute error                      0.1762
+Root mean squared error                  0.3099
+Relative absolute error                 63.7226 %
+Root relative squared error             83.3414 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,781    0,043    0,814      0,781    0,797      0,750    0,944     0,875     P1
+                 0,781    0,057    0,735      0,781    0,758      0,707    0,871     0,717     P2
+                 0,174    0,039    0,381      0,174    0,239      0,192    0,695     0,216     P3
+                 0,436    0,071    0,511      0,436    0,471      0,390    0,837     0,434     P4
+                 0,757    0,227    0,448      0,757    0,563      0,447    0,814     0,485     P5
+                 0,424    0,061    0,596      0,424    0,496      0,418    0,811     0,456     P6
+Weighted Avg.    0,590    0,088    0,594      0,590    0,576      0,505    0,837     0,554     
+
+=== Confusion Matrix ===
+57 13 0 0 2 1
+3 50 1 3 6 1
+3 0 8 10 20 5
+3 2 9 24 15 2
+2 1 2 3 56 10
+2 2 1 7 26 28

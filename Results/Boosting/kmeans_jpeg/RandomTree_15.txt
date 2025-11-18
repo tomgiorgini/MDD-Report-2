@@ -1,0 +1,29 @@
+=== BOOSTING (RandomTree, 15 iterations) ===
+
+Correctly Classified Instances         220               58.2011 %
+Incorrectly Classified Instances       158               41.7989 %
+Kappa statistic                          0.4962
+Mean absolute error                      0.1393
+Root mean squared error                  0.3733
+Relative absolute error                 50.3952 %
+Root relative squared error            100.3914 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,822    0,043    0,822      0,822    0,822      0,779    0,890     0,710     P1
+                 0,688    0,032    0,815      0,688    0,746      0,703    0,828     0,613     P2
+                 0,391    0,099    0,353      0,391    0,371      0,279    0,646     0,212     P3
+                 0,400    0,096    0,415      0,400    0,407      0,309    0,652     0,253     P4
+                 0,486    0,122    0,493      0,486    0,490      0,367    0,682     0,340     P5
+                 0,606    0,109    0,541      0,606    0,571      0,476    0,749     0,396     P6
+Weighted Avg.    0,582    0,083    0,591      0,582    0,585      0,503    0,750     0,439     
+
+=== Confusion Matrix ===
+60 5 3 1 0 4
+8 44 4 4 0 4
+0 2 18 12 9 5
+1 0 12 22 16 4
+1 1 12 7 36 17
+3 2 2 7 12 40

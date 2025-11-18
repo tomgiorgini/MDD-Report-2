@@ -1,0 +1,29 @@
+=== BOOSTING (NaiveBayes, 5 iterations) ===
+
+Correctly Classified Instances         258               68.254  %
+Incorrectly Classified Instances       120               31.746  %
+Kappa statistic                          0.6191
+Mean absolute error                      0.1051
+Root mean squared error                  0.3087
+Relative absolute error                 38.0122 %
+Root relative squared error             83.0258 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,740    0,026    0,871      0,740    0,800      0,761    0,908     0,847     P1
+                 0,609    0,016    0,886      0,609    0,722      0,694    0,882     0,780     P2
+                 0,739    0,105    0,493      0,739    0,591      0,536    0,883     0,606     P3
+                 0,727    0,080    0,606      0,727    0,661      0,601    0,871     0,657     P4
+                 0,649    0,099    0,615      0,649    0,632      0,539    0,840     0,582     P5
+                 0,652    0,051    0,729      0,652    0,688      0,628    0,900     0,761     P6
+Weighted Avg.    0,683    0,061    0,714      0,683    0,689      0,632    0,881     0,712     
+
+=== Confusion Matrix ===
+54 5 2 3 6 3
+8 39 6 5 4 2
+0 0 34 6 4 2
+0 0 7 40 6 2
+0 0 12 7 48 7
+0 0 8 5 10 43

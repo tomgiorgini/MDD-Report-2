@@ -1,0 +1,29 @@
+=== BOOSTING (SimpleLogistic, 15 iterations) ===
+
+Correctly Classified Instances         208               55.0265 %
+Incorrectly Classified Instances       170               44.9735 %
+Kappa statistic                          0.4544
+Mean absolute error                      0.2309
+Root mean squared error                  0.3338
+Relative absolute error                 83.505  %
+Root relative squared error             89.7835 %
+Total Number of Instances              378     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,890    0,039    0,844      0,890    0,867      0,834    0,944     0,835     P1
+                 0,703    0,073    0,662      0,703    0,682      0,615    0,893     0,613     P2
+                 0,109    0,021    0,417      0,109    0,172      0,163    0,731     0,302     P3
+                 0,527    0,133    0,403      0,527    0,457      0,354    0,772     0,426     P4
+                 0,608    0,178    0,455      0,608    0,520      0,388    0,757     0,429     P5
+                 0,288    0,099    0,380      0,288    0,328      0,211    0,745     0,365     P6
+Weighted Avg.    0,550    0,094    0,540      0,550    0,529      0,450    0,813     0,512     
+
+=== Confusion Matrix ===
+65 7 0 0 0 1
+11 45 0 0 0 8
+0 1 5 28 8 4
+0 4 6 29 10 6
+0 5 1 11 45 12
+1 6 0 4 36 19

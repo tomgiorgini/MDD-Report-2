@@ -1,0 +1,27 @@
+ 1. SMO             | Iter=5  | Accuracy=83.33%
+ 2. SMO             | Iter=15 | Accuracy=83.07%
+ 3. SimpleLogistic  | Iter=5  | Accuracy=82.54%
+ 4. RandomForest    | Iter=10 | Accuracy=82.28%
+ 5. RandomForest    | Iter=15 | Accuracy=82.28%
+ 6. SMO             | Iter=10 | Accuracy=82.28%
+ 7. SimpleLogistic  | Iter=10 | Accuracy=82.28%
+ 8. RandomForest    | Iter=5  | Accuracy=81.75%
+ 9. SimpleLogistic  | Iter=15 | Accuracy=80.69%
+10. IBk             | Iter=5  | Accuracy=79.89%
+11. IBk             | Iter=10 | Accuracy=79.89%
+12. IBk             | Iter=15 | Accuracy=79.89%
+13. JRip            | Iter=15 | Accuracy=79.37%
+14. RandomTree      | Iter=15 | Accuracy=79.10%
+15. PART            | Iter=10 | Accuracy=78.84%
+16. PART            | Iter=15 | Accuracy=78.57%
+17. JRip            | Iter=10 | Accuracy=78.04%
+18. J48             | Iter=15 | Accuracy=76.98%
+19. RandomTree      | Iter=10 | Accuracy=76.19%
+20. J48             | Iter=10 | Accuracy=75.13%
+21. JRip            | Iter=5  | Accuracy=73.81%
+22. PART            | Iter=5  | Accuracy=73.28%
+23. J48             | Iter=5  | Accuracy=73.02%
+24. REPTree         | Iter=10 | Accuracy=71.69%
+25. REPTree         | Iter=15 | Accuracy=71.16%
+26. RandomTree      | Iter=5  | Accuracy=71.16%
+27. REPTree         | Iter=5  | Accuracy=67.20%
